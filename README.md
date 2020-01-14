@@ -120,4 +120,4 @@ composer install <vendor/package-name>
 
 [⬆ back to top]
 
-[⬆ back to top]: (#table-of-contents)
+[⬆ back to top]: README.md#table-of-contents
