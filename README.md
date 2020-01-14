@@ -58,7 +58,7 @@ apt list -u
 apt upgrade
 ```
 
-[⬆ back to top]
+[⬆ back to top](#table-of-contents)
 
 ## Git
 
@@ -101,7 +101,7 @@ git tag -d <tag-name>
 git push origin :refs/tags/<tag-name>
 ```
 
-[⬆ back to top]
+[⬆ back to top](#table-of-contents)
 
 ## Composer
 
@@ -118,6 +118,4 @@ composer update
 composer install <vendor/package-name>
 ```
 
-[⬆ back to top]
-
-[⬆ back to top]: README.md#table-of-contents
+[⬆ back to top](#table-of-contents)
