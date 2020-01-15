@@ -5,6 +5,7 @@
 
 1. [Linux](#linux)
 1. [Git](#git)
+1. [SVN](#svn)
 1. [Composer](#composer)
 
 ## Linux
@@ -12,9 +13,6 @@
 * 1.1. Misc
 
 ```bash
-# Search packages
-apt-cache search <package-name>
-
 # Create shortcut
 ln -s <destination-file> <destination-shortcut>
 
@@ -29,6 +27,9 @@ tar -vxjf <filename>
 
 # Read file live
 tail -f <filename>
+
+# Switch to superuser in terminal
+sudo su
 ```
 
 * 1.2. Useful
@@ -45,17 +46,26 @@ dconf-editor
 * 1.3. apt
 
 ```bash
+# Search packages
+apt-cache search <package-name>
+
 # Install app
 apt install <app-name>
 
-# Update
+# Remove app
+apt remove <app-name>
+
+# Update apt
 apt update
 
 # List upgradable files
 apt list -u
 
-# Upgrade
+# Upgrade apt
 apt upgrade
+
+# Clean apt
+apt autoclean
 ```
 
 [⬆ back to top](#table-of-contents)
@@ -99,6 +109,55 @@ git tag -d <tag-name>
 
 # Remove tags remotely
 git push origin :refs/tags/<tag-name>
+```
+
+[⬆ back to top](#table-of-contents)
+
+## SVN
+
+* 3.1. Misc
+
+```bash
+# Status of files
+svn st
+
+# Add file
+svn add <filename>
+
+# Remove file
+svn rm <filename>
+
+# Show differences
+svn diff
+
+# Clone repository
+svn checkout <server-url> <local-folder>
+
+# Update repository
+svn update
+
+# Commit changes with message
+svn commit -m '<message-content>'
+```
+
+* 3.2. Revert
+
+```bash
+# Revert file
+svn revert <path-to-the-file>
+
+# Revert directory
+svn revert -R <path-to-the-directory>
+```
+
+* 3.3. Log
+
+```bash
+# Show log
+svn log
+
+# Show log for last n commits
+svn log -l <number-of-commits>
 ```
 
 [⬆ back to top](#table-of-contents)
