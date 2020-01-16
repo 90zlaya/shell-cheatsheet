@@ -111,6 +111,22 @@ git tag -d <tag-name>
 git push origin :refs/tags/<tag-name>
 ```
 
+2.4. Branches
+
+```bash
+# Show current branch
+git branch
+
+# List all branches
+git branch -a
+
+# List all remote branches
+git branch -r
+
+# Switch to branch
+git checkout <branch-name>
+```
+
 [⬆ back to top](#table-of-contents)
 
 ## SVN
