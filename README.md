@@ -184,14 +184,30 @@ svn log -l <number-of-commits>
 3.1. Misc
 
 ```bash
-# Update composer version
-composer self-update
+# Initialize composer
+composer init
+
+# Install package
+composer install <vendor/package-name>
+
+# Remove package
+composer remove <vendor/package-name>
 
 # Update packages
 composer update
 
-# Install package
-composer install <vendor/package-name>
+# Update composer autoload file
+composer dump-autoload
+```
+
+3.2. Version
+
+```bash
+# Get installed version
+composer -v
+
+# Update installed version
+composer self-update
 ```
 
 [⬆ back to top](#table-of-contents)
