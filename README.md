@@ -76,6 +76,9 @@ apt autoclean
 2.1. Misc
 
 ```bash
+# Get verion of Git
+git version
+
 # Get remote version
 git remote -v
 
@@ -100,6 +103,16 @@ git log -n <number-of-commits> --oneline
 
 # Get last n commits by author
 git log -n <number-of-commits> --author=<author-name>
+
+# Commit order
+git add *
+git commit -m '<message-content>'
+git pull
+git push
+
+# Add local repository to the server for the first time
+git remote add origin <remote-location>
+git push -u origin master
 ```
 
 2.3. Tags
@@ -110,6 +123,9 @@ git tag -d <tag-name>
 
 # Remove tags remotely
 git push origin :refs/tags/<tag-name>
+
+# Tags to branches
+git checkout tags/<tag-name> -b <branch-name>
 ```
 
 2.4. Branches
@@ -126,6 +142,20 @@ git branch -r
 
 # Switch to branch
 git checkout <branch-name>
+
+# Sync master
+git push origin <branch-name>:master
+```
+
+2.5. Users
+
+```bash
+# Get global user
+git config --global --list
+
+# Set global user
+git config --global user.name  "<username>"
+git config --global user.email "<email>"
 ```
 
 [⬆ back to top](#table-of-contents)
