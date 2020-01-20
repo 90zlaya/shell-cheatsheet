@@ -14,23 +14,14 @@
 * 1.1. Misc
 
 ```bash
-# Create shortcut
-ln -s <destination-file> <destination-shortcut>
+# Switch to superuser in terminal
+sudo su
 
 # Get list of all processes for app name
 ps -ef | grep <app-name>
 
 # Kill all processes by given name
 killall <process_name>
-
-# Extract tar file
-tar -vxjf <filename>
-
-# Read file live
-tail -f <filename>
-
-# Switch to superuser in terminal
-sudo su
 ```
 
 * 1.2. Useful
@@ -67,6 +58,41 @@ apt upgrade
 
 # Clean apt
 apt autoclean
+```
+
+* 1.4. Directory
+
+```bash
+# List current path
+pwd
+
+# List directory content
+ls
+
+# Enter directory
+cd <directory-name>
+
+# Create new directory
+mkdir <directory-name>
+
+# Move directory
+mv <directory-name>
+
+# Remove directory
+rm <directory-name>
+```
+
+* 1.5. File
+
+```bash
+# Create shortcut
+ln -s <destination-file> <destination-shortcut>
+
+# Extract tar file
+tar -vxjf <filename>
+
+# Read file live
+tail -f <filename>
 ```
 
 [⬆ back to top](#table-of-contents)
@@ -211,7 +237,7 @@ svn log -l <number-of-commits>
 
 ## Composer
 
-3.1. Misc
+4.1. Misc
 
 ```bash
 # Initialize composer
@@ -230,7 +256,7 @@ composer update
 composer dump-autoload
 ```
 
-3.2. Version
+4.2. Version
 
 ```bash
 # Get installed version
@@ -244,7 +270,7 @@ composer self-update
 
 ## cURL
 
-3.1. Misc
+5.1. Misc
 
 ```bash
 # Get page content
