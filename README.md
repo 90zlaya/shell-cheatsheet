@@ -114,13 +114,16 @@ git config credential.helper store
 # Set remote origin URL
 git remote set-url <url-path>
 
-# List configured user
-git config --global --list
+# Clone to repository
+git clone <repository-url>
 ```
 
 2.2. Commits
 
 ```bash
+# Check commits short log
+git shortlog
+
 # Get last n commits
 git log -n <number-of-commits>
 
@@ -135,6 +138,9 @@ git add *
 git commit -m '<message-content>'
 git pull
 git push
+
+# Remove files from stage area
+git rm --cached <filename>
 
 # Add local repository to the server for the first time
 git remote add origin <remote-location>
@@ -171,6 +177,15 @@ git checkout <branch-name>
 
 # Sync master
 git push origin <branch-name>:master
+
+# Create branch
+git branch <branch-name>
+
+# Clone branch
+git clone --branch <branch-name>
+
+# Set specific branch to be master for pushed commits
+git push --set-upstream origin <branch-name>
 ```
 
 2.5. Users
