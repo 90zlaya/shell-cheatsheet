@@ -11,7 +11,7 @@
 
 ## Linux
 
-* 1.1. Misc
+1.1. Misc
 
 ```bash
 # Switch to superuser in terminal
@@ -24,7 +24,7 @@ ps -ef | grep <app-name>
 killall <process_name>
 ```
 
-* 1.2. Useful
+1.2. Useful
 
 ```bash
 # Install & run OS configuration tools
@@ -35,7 +35,7 @@ dconf-editor
 /var/log/apache2/error.log
 ```
 
-* 1.3. apt
+1.3. apt
 
 ```bash
 # Search packages
@@ -60,7 +60,7 @@ apt upgrade
 apt autoclean
 ```
 
-* 1.4. Directory
+1.4. Directory
 
 ```bash
 # List current path
@@ -82,7 +82,7 @@ mv <directory-name>
 rm <directory-name>
 ```
 
-* 1.5. File
+1.5. File
 
 ```bash
 # Create shortcut
@@ -105,17 +105,14 @@ tail -f <filename>
 # Get verion of Git
 git version
 
-# Get remote version
-git remote -v
-
 # Set credentials for repository
 git config credential.helper store
 
-# Set remote origin URL
-git remote set-url <url-path>
-
 # Clone to repository
 git clone <repository-url>
+
+# Get differences between files
+git diff --staged
 ```
 
 2.2. Commits
@@ -145,6 +142,9 @@ git rm --cached <filename>
 # Add local repository to the server for the first time
 git remote add origin <remote-location>
 git push -u origin master
+
+# Reset changes to the last commit
+git reset --hard
 ```
 
 2.3. Tags
@@ -175,17 +175,26 @@ git branch -r
 # Switch to branch
 git checkout <branch-name>
 
-# Sync master
-git push origin <branch-name>:master
-
 # Create branch
 git branch <branch-name>
 
 # Clone branch
 git clone --branch <branch-name>
 
+# Delete branch
+git branch -d <branch-name>
+
 # Set specific branch to be master for pushed commits
 git push --set-upstream origin <branch-name>
+
+# Merge branch to master
+git merge <branch-name>
+
+# Get all merged branches
+git branch --merged
+
+# Get all non-merged branches
+git branch --no-merged
 ```
 
 2.5. Users
@@ -199,11 +208,30 @@ git config --global user.name  "<username>"
 git config --global user.email "<email>"
 ```
 
+2.6. Remote
+
+```bash
+# Get remote version
+git remote -v
+
+# Set remote origin URL
+git remote set-url <url-path>
+
+# Change directory and remote path
+git remote set-url --add origin <url-path>
+
+# Edit remote location
+git remote -v
+git remote rm origin
+git remote add origin <url-path>
+git push --set-upstream <url-path>
+```
+
 [⬆ back to top](#table-of-contents)
 
 ## SVN
 
-* 3.1. Misc
+3.1. Misc
 
 ```bash
 # Status of files
@@ -228,7 +256,7 @@ svn update
 svn commit -m '<message-content>'
 ```
 
-* 3.2. Revert
+3.2. Revert
 
 ```bash
 # Revert file
@@ -238,7 +266,7 @@ svn revert <path-to-the-file>
 svn revert -R <path-to-the-directory>
 ```
 
-* 3.3. Log
+3.3. Log
 
 ```bash
 # Show log
