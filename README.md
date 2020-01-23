@@ -8,6 +8,7 @@
 1. [SVN](#svn)
 1. [Composer](#composer)
 1. [cURL](#curl)
+1. [PHPUnit](#phpunit)
 
 ## Linux
 
@@ -336,6 +337,44 @@ curl <url> \ -d '<json-data>' \ -H "Content-Type: application/json" -X POST \ -v
 
 # Get HTTP status code
 curl -LI <url> -o /dev/null -w '%{http_code}\n' -s
+```
+
+[⬆ back to top](#table-of-contents)
+
+## PHPUnit
+
+6.1. Misc
+
+```php
+// Assert that variable is true with message
+$this->assertTrue(true, 'This should already work.');
+
+// Mark that test is not completed
+$this->markTestIncomplete('This test has not been implemented yet.');
+
+// Skip test
+if (!extension_loaded('mysqli'))
+{
+    $this->markTestSkipped('The MySQLi extension is not available.');
+}
+```
+
+6.2. Assertions
+
+```php
+$this->assertEquals($givenValue, $comparisonValue);
+$this->assertNotEquals($givenValue, $comparisonValue);
+$this->assertEmpty($givenValue);
+$this->assertNotEmpty($givenValue);
+$this->assertTrue($givenValue);
+$this->assertFalse($givenValue);
+$this->assertNotFalse($givenValue);
+$this->assertArrayHasKey($givenArray['keyExample'], $comparisonArray);
+$this->assertArrayNotHasKey($givenArray['keyExample'], $comparisonArray);
+$this->assertInternalType($givenValue, $internalType); // string, array, int...
+$this->assertContains($givenValue, $containsValue);
+$this->expectException($exceptionType);
+$this->expectOutputString($expectedOutputString);
 ```
 
 [⬆ back to top](#table-of-contents)
