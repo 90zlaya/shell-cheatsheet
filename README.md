@@ -9,6 +9,7 @@
 1. [Composer](#composer)
 1. [cURL](#curl)
 1. [PHPUnit](#phpunit)
+1. [npm](#npm)
 
 ## Linux
 
@@ -114,6 +115,12 @@ git clone <repository-url>
 
 # Get differences between files
 git diff --staged
+
+# Reset changes to the file
+git checkout HEAD -- <filename>
+
+# Restore changes to directory
+git restore -s@ -SW  -- <directory>
 ```
 
 2.2. Commits
@@ -375,6 +382,61 @@ $this->assertInternalType($givenValue, $internalType); // string, array, int...
 $this->assertContains($givenValue, $containsValue);
 $this->expectException($exceptionType);
 $this->expectOutputString($expectedOutputString);
+```
+
+[⬆ back to top](#table-of-contents)
+
+
+## npm
+
+7.1. Misc
+
+```bash
+# Where npm was installed
+which npm
+
+# Check the version
+npm -v
+
+# Updating npm globally
+npm install npm@latest -g
+
+# Searching for packages
+npm search <package-name>
+
+# Clean cached packages
+npm cache clean --force
+
+# Get details of node_modules directory
+npm fund
+
+# Compose security report
+npm audit
+
+# Fix security issues
+npm audit fix
+```
+
+7.2. Install and Remove
+
+```bash
+# Listing packages
+npm list
+
+# List outdated packages
+npm outdated
+
+# Install package
+npm install <package-name>
+
+# Update package
+npm update <package-name>
+
+# Remove package
+npm remove <package-name>
+
+# Install specific version of a package
+npm install <package-name>@<version>
 ```
 
 [⬆ back to top](#table-of-contents)
