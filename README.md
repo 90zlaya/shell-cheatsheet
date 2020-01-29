@@ -35,6 +35,12 @@ dconf-editor
 
 # Apache server log location
 /var/log/apache2/error.log
+
+# List of apt sources
+nano /etc/apt/sources.list
+
+# Go to folder with crash reports
+cd /var/crash
 ```
 
 1.3. apt
