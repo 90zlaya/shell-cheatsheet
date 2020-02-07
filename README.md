@@ -268,6 +268,9 @@ svn update
 
 # Commit changes with message
 svn commit -m '<message-content>'
+
+# Automatically remove unversioned files
+svn cleanup --remove-unversioned
 ```
 
 3.2. Revert
