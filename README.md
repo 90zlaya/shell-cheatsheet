@@ -10,6 +10,7 @@
 1. [cURL](#curl)
 1. [PHPUnit](#phpunit)
 1. [npm](#npm)
+1. [youtube-dl](#youtube-dl)
 
 ## Linux
 
@@ -66,6 +67,9 @@ apt upgrade
 
 # Clean apt
 apt autoclean
+
+# Remove repository
+add-apt-repository -r ppa:<ppa-to-remove>
 ```
 
 1.4. Directory
@@ -446,6 +450,17 @@ npm remove <package-name>
 
 # Install specific version of a package
 npm install <package-name>@<version>
+```
+
+[⬆ back to top](#table-of-contents)
+
+## youtube-dl
+
+7.1. Misc
+
+```bash
+# Download playlist in mp3 format
+youtube-dl -x --audio-format mp3 <playlist-url>
 ```
 
 [⬆ back to top](#table-of-contents)
