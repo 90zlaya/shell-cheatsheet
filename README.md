@@ -11,6 +11,7 @@
 1. [PHPUnit](#phpunit)
 1. [npm](#npm)
 1. [youtube-dl](#youtube-dl)
+1. [apm](#apm)
 
 ## Linux
 
@@ -456,11 +457,25 @@ npm install <package-name>@<version>
 
 ## youtube-dl
 
-7.1. Misc
+8.1. Misc
 
 ```bash
 # Download playlist in mp3 format
 youtube-dl -x --audio-format mp3 <playlist-url>
+```
+
+[⬆ back to top](#table-of-contents)
+
+## apm
+
+9.1. Misc
+
+```bash
+# Install package
+apm install <package-name>
+
+# Remove package
+apm remove <package-name>
 ```
 
 [⬆ back to top](#table-of-contents)
