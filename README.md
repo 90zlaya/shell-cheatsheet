@@ -164,6 +164,9 @@ git push -u origin master
 
 # Reset changes to the last commit
 git reset --hard
+
+# Reset changes to the specific commit
+git reset --hard <commit-hash>
 ```
 
 2.3. Tags
@@ -471,6 +474,9 @@ youtube-dl -x --audio-format mp3 <playlist-url>
 9.1. Misc
 
 ```bash
+# List installed packages
+apm list --installed
+
 # Install package
 apm install <package-name>
 
