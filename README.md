@@ -26,6 +26,12 @@ ps -ef | grep <app-name>
 
 # Kill all processes by given name
 killall <process_name>
+
+# Get computer's hostname
+hostname -I
+
+# Clear swap space
+swapoff -a && swapon -a
 ```
 
 1.2. Useful
@@ -279,6 +285,9 @@ svn commit -m '<message-content>'
 
 # Automatically remove unversioned files
 svn cleanup --remove-unversioned
+
+# Information about repository
+svn info
 ```
 
 3.2. Revert
