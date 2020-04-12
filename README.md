@@ -26,6 +26,9 @@ ps -ef | grep <app-name>
 
 # Kill all processes by given name
 killall <process_name>
+
+# Runs a sound test with static bouncing back and forth
+speaker-test --channels 2 --rate 48000 --device hw:0,3
 ```
 
 1.2. Useful
