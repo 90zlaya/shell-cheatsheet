@@ -27,6 +27,12 @@ ps -ef | grep <app-name>
 # Kill all processes by given name
 killall <process_name>
 
+# Get computer's hostname
+hostname -I
+
+# Clear swap space
+swapoff -a && swapon -a
+
 # Runs a sound test with static bouncing back and forth
 speaker-test --channels 2 --rate 48000 --device hw:0,3
 ```
@@ -282,6 +288,9 @@ svn commit -m '<message-content>'
 
 # Automatically remove unversioned files
 svn cleanup --remove-unversioned
+
+# Information about repository
+svn info
 ```
 
 3.2. Revert
