@@ -117,6 +117,22 @@ tar -vxjf <filename>
 tail -f <filename>
 ```
 
+1.6. Aliases
+
+```bash
+# List of aliases
+vim ~/.bashrc
+
+# Create alias
+alias <alias-name>="<command>"
+
+# Remove alias
+unalias <alias-name>
+
+# Force list of aliases to reload in current session
+source ~/.bashrc
+```
+
 [⬆ back to top](#table-of-contents)
 
 ## Git
