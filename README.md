@@ -12,6 +12,7 @@
 1. [npm](#npm)
 1. [youtube-dl](#youtube-dl)
 1. [apm](#apm)
+1. [vue-cli](#vue-cli)
 
 ## Linux
 
@@ -482,6 +483,9 @@ npm remove <package-name>
 
 # Install specific version of a package
 npm install <package-name>@<version>
+
+# Remove extraneous packages
+npm prune
 ```
 
 [⬆ back to top](#table-of-contents)
@@ -510,6 +514,20 @@ apm install <package-name>
 
 # Remove package
 apm remove <package-name>
+```
+
+[⬆ back to top](#table-of-contents)
+
+## vue-cli
+
+10.1. Misc
+
+```bash
+# Install globally
+npm install -g @vue/cli
+
+# Start UI
+vue ui
 ```
 
 [⬆ back to top](#table-of-contents)
