@@ -53,6 +53,10 @@ nano /etc/apt/sources.list
 
 # Go to folder with crash reports
 cd /var/crash
+
+# Install & run to list folder tree
+apt-get install tree
+tree
 ```
 
 1.3. apt
@@ -102,7 +106,14 @@ mkdir <directory-name>
 mv <directory-name>
 
 # Remove directory
-rm <directory-name>
+rm -d <directory-name>
+
+# Confirm to remove
+rm -i <filename>
+
+# Remove all files with extension
+rm -fv *.<extension>
+
 ```
 
 1.5. File
@@ -308,6 +319,9 @@ svn cleanup --remove-unversioned
 
 # Information about repository
 svn info
+
+# Merge to local branch from server
+svn merge -r 10:HEAD <server-url>
 ```
 
 3.2. Revert
@@ -495,6 +509,13 @@ npm prune
 8.1. Misc
 
 ```bash
+# Download using cURL (install or update) and set permissions
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+
+# Show version
+youtube-dl --version
+
 # Download playlist in mp3 format
 youtube-dl -x --audio-format mp3 <playlist-url>
 ```
