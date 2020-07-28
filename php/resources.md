@@ -1,0 +1,17 @@
+# Resources for PHP
+> Useful resources for PHP
+
+## Table of Contents
+
+1. [Misc](#misc)
+
+[↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
+
+## Misc
+
+Name  | URL
+------------- | -------------
+PSR-12: Extended Coding Style  | https://www.php-fig.org/psr/psr-12/
+
+
+[⬆ back to top](#table-of-contents)
