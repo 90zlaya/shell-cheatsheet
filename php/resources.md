@@ -12,6 +12,7 @@
 Name  | URL
 ------------- | -------------
 PSR-12: Extended Coding Style  | https://www.php-fig.org/psr/psr-12/
+Design Patterns PHP | https://designpatternsphp.readthedocs.io/en/latest/README.html
 
 
 [⬆ back to top](#table-of-contents)
