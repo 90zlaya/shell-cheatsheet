@@ -35,6 +35,6 @@ Disable safe updates so you can run `UPDATE` queries without primary key
 SET SQL_SAFE_UPDATES = 0;
 ```
 
-To enble safe updates change integer value from `0` to `1`
+To enble safe updates change integer value from *0* to *1*
 
 [⬆ back to top](#table-of-contents)
