@@ -40,6 +40,7 @@ Name  | URL
 Resize a PNG | https://onlinepngtools.com/resize-png
 PNG or JPG to SVG | https://www.pngtosvg.com/
 Color Calculator | https://www.sessions.edu/color-calculator/
+Color Palette | https://www.w3schools.com/cssref/css_colors.asp
 
 
 [⬆ back to top](#table-of-contents)
