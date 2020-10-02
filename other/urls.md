@@ -43,6 +43,7 @@ Color Calculator | https://www.sessions.edu/color-calculator/
 Color Palette | https://www.w3schools.com/cssref/css_colors.asp
 JPG to PDF | https://smallpdf.com/jpg-to-pdf
 DOCX to PDF | https://online2pdf.com/convert-docx-to-pdf
+GIF optimizer | https://ezgif.com/optimize
 
 
 [⬆ back to top](#table-of-contents)
