@@ -21,7 +21,6 @@ CDN | https://cdnjs.com/
 Email Breaches | https://haveibeenpwned.com/
 Free Proxy List | https://free-proxy-list.net/
 
-
 [⬆ back to top](#table-of-contents)
 
 ## Courses
@@ -29,7 +28,6 @@ Free Proxy List | https://free-proxy-list.net/
 Name | URL
 ------------- | -------------
 Vue.js & JavaScript Free Courses | https://vueschool.io/courses?filter=free-courses
-
 
 [⬆ back to top](#table-of-contents)
 
@@ -45,7 +43,6 @@ JPG to PDF | https://smallpdf.com/jpg-to-pdf
 DOCX to PDF | https://online2pdf.com/convert-docx-to-pdf
 GIF optimizer | https://ezgif.com/optimize
 
-
 [⬆ back to top](#table-of-contents)
 
 ## Converters
@@ -59,7 +56,6 @@ Unminify JS, CSS, HTML, XML, JSON | https://unminify.com/
 Markdown Live Preview | https://markdownlivepreview.com/
 JSON stringify | https://onlinetexttools.com/json-stringify-text
 
-
 [⬆ back to top](#table-of-contents)
 
 ## Formatters
@@ -69,6 +65,5 @@ Name | URL
 HTML | https://webformatter.com/html
 XML | https://www.freeformatter.com/xml-formatter.html#ad-output
 JSON | https://jsonformatter.curiousconcept.com/
-
 
 [⬆ back to top](#table-of-contents)
