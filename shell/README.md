@@ -3,7 +3,7 @@
 
 Read more about [Unix shell](https://en.wikipedia.org/wiki/Unix_shell.md).
 
-## List of cheatsheets
+## List of Cheatsheets
 
 1. [Linux](linux.md)
 1. [Git](git.md)

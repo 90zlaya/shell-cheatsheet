@@ -3,7 +3,7 @@
 
 Read more about [PHP](https://www.php.net/).
 
-## List of cheatsheets
+## List of Cheatsheets
 
 1. [PHPUnit](phpunit.md)
 1. [Essential to know about PHP](essential-to-know.md)

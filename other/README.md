@@ -1,7 +1,7 @@
 # Other Cheatsheet
 > Cheatsheet for other stuff
 
-## List of cheatsheets
+## List of Cheatsheets
 
 1. [URLs](urls.md)
 

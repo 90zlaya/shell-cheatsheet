@@ -7,17 +7,21 @@ Read more about [Git](https://git-scm.com/).
 
 1. [Misc](#misc)
 1. [Commits](#commits)
+1. [Tags](#tags)
 1. [Branches](#branches)
 1. [Users](#users)
 1. [Remote](#remote)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-## Misc
+1. ### Misc
 
 ```bash
 # Get verion of Git
 git version
+
+# Initialize repository
+git init
 
 # Set credentials for repository
 git config credential.helper store
@@ -37,7 +41,7 @@ git restore -s@ -SW  -- <directory>
 
 [⬆ back to top](#table-of-contents)
 
-## Commits
+2. ### Commits
 
 ```bash
 # Check commits short log
@@ -74,7 +78,7 @@ git reset --hard <commit-hash>
 
 [⬆ back to top](#table-of-contents)
 
-## Tags
+3. ### Tags
 
 ```bash
 # Delete a local tag
@@ -89,7 +93,7 @@ git checkout tags/<tag-name> -b <branch-name>
 
 [⬆ back to top](#table-of-contents)
 
-## Branches
+4. ### Branches
 
 ```bash
 # Show current branch
@@ -128,7 +132,7 @@ git branch --no-merged
 
 [⬆ back to top](#table-of-contents)
 
-## Users
+5. ### Users
 
 ```bash
 # Get global user
@@ -141,7 +145,7 @@ git config --global user.email "<email>"
 
 [⬆ back to top](#table-of-contents)
 
-## Remote
+6. ### Remote
 
 ```bash
 # Get remote version

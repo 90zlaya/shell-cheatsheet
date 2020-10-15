@@ -9,7 +9,7 @@ Read more about [youtube-dl](https://youtube-dl.org/).
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-## Misc
+1. ### Misc
 
 ```bash
 # Download using cURL (install or update) and set permissions

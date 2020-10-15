@@ -9,7 +9,7 @@ Read more about [cURL](https://curl.haxx.se/).
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-## Misc
+1. ### Misc
 
 ```bash
 # Get page content

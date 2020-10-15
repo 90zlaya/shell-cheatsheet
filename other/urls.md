@@ -8,10 +8,11 @@
 1. [Images and Files](#images-and-files)
 1. [Converters](#converters)
 1. [Formatters](#formatters)
+1. [Validators](#validators)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-## Uncategorized
+1. ### Uncategorized
 
 Name | URL
 ------------- | -------------
@@ -20,10 +21,11 @@ Text Compare! | https://text-compare.com/
 CDN | https://cdnjs.com/
 Email Breaches | https://haveibeenpwned.com/
 Free Proxy List | https://free-proxy-list.net/
+OpenBase: Packages comparer| https://openbase.io/
 
 [⬆ back to top](#table-of-contents)
 
-## Courses
+2. ### Courses
 
 Name | URL
 ------------- | -------------
@@ -31,7 +33,7 @@ Vue.js & JavaScript Free Courses | https://vueschool.io/courses?filter=free-cour
 
 [⬆ back to top](#table-of-contents)
 
-## Images and Files
+3. ### Images and Files
 
 Name | URL
 ------------- | -------------
@@ -45,25 +47,34 @@ GIF optimizer | https://ezgif.com/optimize
 
 [⬆ back to top](#table-of-contents)
 
-## Converters
+4. ### Converters
 
 Name | URL
 ------------- | -------------
 Epoch Unix Time Stamp Converter | https://www.unixtimestamp.com/index.php
 UNIX Timestamp Converter | https://www.textmagic.com/free-tools/timestamp-converter
 PX to EM Converter | http://pxtoem.com/
+Minify JavaScript | https://javascript-minifier.com/
 Unminify JS, CSS, HTML, XML, JSON | https://unminify.com/
 Markdown Live Preview | https://markdownlivepreview.com/
 JSON stringify | https://onlinetexttools.com/json-stringify-text
 
 [⬆ back to top](#table-of-contents)
 
-## Formatters
+5. ### Formatters
 
 Name | URL
 ------------- | -------------
 HTML | https://webformatter.com/html
 XML | https://www.freeformatter.com/xml-formatter.html#ad-output
 JSON | https://jsonformatter.curiousconcept.com/
+
+[⬆ back to top](#table-of-contents)
+
+6. ### Validators
+
+Name | URL
+------------- | -------------
+JavaScript | http://beautifytools.com/javascript-validator.php
 
 [⬆ back to top](#table-of-contents)

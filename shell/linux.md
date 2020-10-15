@@ -14,7 +14,7 @@ Read more about [Linux](https://www.linux.org/).
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-## Misc
+1. ### Misc
 
 ```bash
 # Switch to superuser in terminal
@@ -38,7 +38,7 @@ speaker-test --channels 2 --rate 48000 --device hw:0,3
 
 [⬆ back to top](#table-of-contents)
 
-## Useful
+2. ### Useful
 
 ```bash
 # Install & run OS configuration tools
@@ -61,7 +61,7 @@ tree
 
 [⬆ back to top](#table-of-contents)
 
-## apt
+3. ### apt
 
 ```bash
 # Search packages
@@ -91,7 +91,7 @@ add-apt-repository -r ppa:<ppa-to-remove>
 
 [⬆ back to top](#table-of-contents)
 
-## Directory
+4. ### Directory
 
 ```bash
 # List current path
@@ -105,6 +105,9 @@ cd <directory-name>
 
 # Create new directory
 mkdir <directory-name>
+
+# Copy directory
+cp -R <source-directory>  <destination-directory>
 
 # Move directory
 mv <directory-name>
@@ -121,7 +124,7 @@ rm -fv *.<extension>
 
 [⬆ back to top](#table-of-contents)
 
-## File
+5. ### File
 
 ```bash
 # Create shortcut
@@ -132,11 +135,14 @@ tar -vxjf <filename>
 
 # Read file live
 tail -f <filename>
+
+# Copy file
+cp <source-filename> <location-filename>
 ```
 
 [⬆ back to top](#table-of-contents)
 
-## Aliases
+6. ### Aliases
 
 ```bash
 # List of aliases

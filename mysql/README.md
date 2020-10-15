@@ -3,7 +3,7 @@
 
 Read more about [MySQL](https://www.mysql.com/).
 
-## List of cheatsheets
+## List of Cheatsheets
 
 1. [Query Helper](query-helper.md)
 

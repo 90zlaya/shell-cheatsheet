@@ -10,7 +10,7 @@ Read more about [NPM](https://www.npmjs.com/).
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-## Misc
+1. ### Misc
 
 ```bash
 # Where npm was installed
@@ -40,7 +40,7 @@ npm audit fix
 
 [⬆ back to top](#table-of-contents)
 
-## Install and Remove
+2. ### Install and Remove
 
 ```bash
 # Listing packages

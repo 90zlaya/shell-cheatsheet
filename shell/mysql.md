@@ -11,7 +11,7 @@ Read more about [MySQL](https://www.mysql.com/).
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-## Misc
+1. ### Misc
 
 ```bash
 # Login
@@ -29,7 +29,7 @@ exit;
 
 [⬆ back to top](#table-of-contents)
 
-## Databases
+2. ### Databases
 
 ```bash
 # Show all databases
@@ -53,7 +53,7 @@ drop database <database-name>;
 
 [⬆ back to top](#table-of-contents)
 
-## Tables
+3. ### Tables
 
 ```bash
 # Show all tables

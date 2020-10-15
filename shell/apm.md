@@ -9,7 +9,7 @@ Read more about [APM](https://flight-manual.atom.io/using-atom/sections/atom-pac
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-## Misc
+1. ### Misc
 
 ```bash
 # List installed packages

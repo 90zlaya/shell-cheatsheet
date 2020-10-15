@@ -10,7 +10,7 @@ Read more about [Composer](https://getcomposer.org/).
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-## Misc
+1. ### Misc
 
 ```bash
 # Initialize composer
@@ -31,7 +31,7 @@ composer dump-autoload
 
 [⬆ back to top](#table-of-contents)
 
-## Version
+2. ### Version
 
 ```bash
 # Get installed version

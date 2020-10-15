@@ -10,7 +10,7 @@ Read more about [PHPUnit](https://phpunit.de/).
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-## Misc
+1. ### Misc
 
 ```php
 // Assert that variable is true with message
@@ -28,7 +28,7 @@ if (!extension_loaded('mysqli'))
 
 [⬆ back to top](#table-of-contents)
 
-## Assertions
+2. ### Assertions
 
 ```php
 $this->assertEquals($givenValue, $comparisonValue);

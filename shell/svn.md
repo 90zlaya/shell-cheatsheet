@@ -11,7 +11,7 @@ Read more about [SVN](https://subversion.apache.org/).
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-## Misc
+1. ### Misc
 
 ```bash
 # Status of files
@@ -47,7 +47,7 @@ svn merge -r 10:HEAD <server-url>
 
 [⬆ back to top](#table-of-contents)
 
-## Revert
+2. ### Revert
 
 ```bash
 # Revert file
@@ -59,7 +59,7 @@ svn revert -R <path-to-the-directory>
 
 [⬆ back to top](#table-of-contents)
 
-## Log
+3. ### Log
 
 ```bash
 # Show log

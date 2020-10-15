@@ -3,13 +3,13 @@
 
 ## Table of Contents
 
-1. [Auto Increment](#auto_increment)
+1. [Auto Increment](#auto-increment)
 1. [Safe Updates](#safe-updates)
 1. [Show Create Table](#show-create-table)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-## Auto Increment
+1. ### Auto Increment
 
 View current `AUTO_INCREMENT` value for given *DatabaseName* and *TableName*. 
 
@@ -28,7 +28,7 @@ ALTER TABLE `DatabaseName`.`TableName` AUTO_INCREMENT = 1000;
 
 [⬆ back to top](#table-of-contents)
 
-## Safe Updates
+2. ### Safe Updates
 
 Disable safe updates so you can run `UPDATE` queries without primary key. 
 
@@ -40,7 +40,7 @@ To enble safe updates change integer value from *0* to *1*.
 
 [⬆ back to top](#table-of-contents)
 
-## Show Create Table
+3. ### Show Create Table
 
 Displays table creation structure. Replace *TableName* with your value to get structure.
 

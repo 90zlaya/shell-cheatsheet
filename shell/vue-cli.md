@@ -9,7 +9,7 @@ Read more about [Vue CLI](https://cli.vuejs.org/).
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-## Misc
+1. ### Misc
 
 ```bash
 # Install globally
