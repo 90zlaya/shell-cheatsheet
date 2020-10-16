@@ -1,4 +1,4 @@
-# MySQL Query Helper
+# Query Helper
 > Queries which might help with development
 
 ## Table of Contents

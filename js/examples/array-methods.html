@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+<body>
+    <p>Open console to see results (ctrl+shift+I)</p>
+    <script>
+        // List of F1 Champions with 4 or more championships
+        const formulaOneChampions = [
+            {
+                name: 'Michael Schumacher',
+                country: 'Germany',
+                championships: 7,
+                winning_seasons: [1994, 1995, 2000, 2001, 2002, 2003, 2004]
+            },
+            {
+                name: 'Lewis Hamilton',
+                country: 'Great Britain',
+                championships: 6,
+                winning_seasons: [2008, 2014, 2015, 2017, 2018, 2019]
+            },
+            {
+                name: 'Juan Manuel Fangio',
+                country: 'Argentina',
+                championships: 5,
+                winning_seasons: [1951, 1954, 1955, 1956, 1957]
+            },
+            {
+                name: 'Alain Prost',
+                country: 'France',
+                championships: 4,
+                winning_seasons: [1985, 1986, 1989, 1993]
+            },
+            {
+                name: 'Sebastian Vettel',
+                country: 'Germany',
+                championships: 4,
+                winning_seasons: [2010, 2011, 2012, 2013]
+            }
+        ];
+
+        // Get all champions from Germany
+        const championsFromCountry = formulaOneChampions.filter(champion => Object.is(champion.country, 'Germany'));
+        console.log('Champions from Germany', championsFromCountry);
+
+        // Get champion for season 1989
+        const championFromYear = formulaOneChampions.find(champion => champion.winning_seasons.includes(1989));
+        console.log('Champion from 1989', championFromYear);
+
+        // Get all winning seasons from oldest to newest
+        const allWinningSeasons = formulaOneChampions.map((champion) => {
+            return champion.winning_seasons;
+        }).reduce((previous, current) => {
+            return previous.concat(current);
+        }).sort();
+        console.log('All winning seasons', allWinningSeasons);
+    </script>
+</body>
+</html>

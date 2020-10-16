@@ -61,6 +61,9 @@ show tables;
 
 # Show table structure
 describe <table-name>;
+
+# Show indexes on a table
+show index from <table-name>;
 ```
 
 [⬆ back to top](#table-of-contents)
