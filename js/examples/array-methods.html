@@ -43,12 +43,23 @@
         ];
 
         // Get all champions from Germany
-        const championsFromCountry = formulaOneChampions.filter(champion => Object.is(champion.country, 'Germany'));
+        const championsFromCountry = formulaOneChampions.filter((champion) => {
+            return Object.is(champion.country, 'Germany');
+        });
         console.log('Champions from Germany', championsFromCountry);
 
         // Get champion for season 1989
-        const championFromYear = formulaOneChampions.find(champion => champion.winning_seasons.includes(1989));
+        const championFromYear = formulaOneChampions.find((champion) => {
+            return champion.winning_seasons.includes(1989);
+        });
         console.log('Champion from 1989', championFromYear);
+
+        // Get details about champion for season 1989
+        console.group('Champion from year 1989');
+        console.log(`Name: ${ championFromYear.name }`);
+        console.log(`Country: ${ championFromYear.country }`);
+        console.log(`Championships: ${ championFromYear.championships }`);
+        console.groupEnd();
 
         // Get all winning seasons from oldest to newest
         const allWinningSeasons = formulaOneChampions.map((champion) => {
