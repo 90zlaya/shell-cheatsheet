@@ -22,6 +22,7 @@ CDN | https://cdnjs.com/
 Email Breaches | https://haveibeenpwned.com/
 Free Proxy List | https://free-proxy-list.net/
 OpenBase: Packages comparer| https://openbase.io/
+Pasword Generator | https://passwordsgenerator.net/
 
 [⬆ back to top](#table-of-contents)
 
@@ -78,6 +79,9 @@ JSON | https://jsonformatter.curiousconcept.com/
 
 Name | URL
 ------------- | -------------
+HTML | https://validator.w3.org/
+CSS | http://www.css-validator.org/
 JavaScript | http://beautifytools.com/javascript-validator.php
+JSON | https://jsonlint.com/
 
 [⬆ back to top](#table-of-contents)
