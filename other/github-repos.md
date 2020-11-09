@@ -32,6 +32,7 @@ Design Resources | https://github.com/bradtraversy/design-resources-for-develope
 Development Resources| https://github.com/MarkoDenic/web-development-resources
 Learning Resources | https://github.com/lauragift21/awesome-learning-resources
 30 Seconds of Code | https://github.com/30-seconds/30-seconds-of-code
+Algorithms & Data Structures | https://github.com/excelbrium/algorithms-and-data-structures
 
 [⬆ back to top](#table-of-contents)
 
@@ -65,6 +66,7 @@ Name | URL
 Vanilla Projects| https://github.com/bradtraversy/vanillawebprojects
 33 Concepts | https://github.com/leonardomso/33-js-concepts
 Luxon: Dates and Times| https://github.com/moment/luxon
+Obfuscator | https://github.com/javascript-obfuscator/javascript-obfuscator
 
 [⬆ back to top](#table-of-contents)
 
@@ -79,5 +81,9 @@ Logging | https://github.com/apache/logging-log4php
 Viber Bot | https://github.com/Bogdaan/viber-bot-php
 Design Patterns | https://github.com/domnikl/DesignPatternsPHP
 CodeIgniter RESTServer | https://github.com/chriskacerguis/codeigniter-restserver
+PHP Mailer | https://github.com/PHPMailer/PHPMailer
+Laravel | https://github.com/laravel/laravel
+Symphony | https://github.com/symfony/symfony
+CodeIgniter | https://github.com/bcit-ci/CodeIgniter
 
 [⬆ back to top](#table-of-contents)
