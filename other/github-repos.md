@@ -9,6 +9,7 @@
 1. [Vue.js](#vuejs)
 1. [JavaScript](#javascript)
 1. [PHP](#php)
+1. [Zendesk](#zendesk)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
@@ -85,5 +86,14 @@ PHP Mailer | https://github.com/PHPMailer/PHPMailer
 Laravel | https://github.com/laravel/laravel
 Symphony | https://github.com/symfony/symfony
 CodeIgniter | https://github.com/bcit-ci/CodeIgniter
+
+[⬆ back to top](#table-of-contents)
+
+7. ### Zendesk
+
+Name | URL
+------------- | -------------
+PHP API Client | https://github.com/zendesk/zendesk_api_client_php
+App Framework SDK | https://github.com/zendesk/zendesk_app_framework_sdk
 
 [⬆ back to top](#table-of-contents)

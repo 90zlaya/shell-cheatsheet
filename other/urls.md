@@ -9,6 +9,8 @@
 1. [Converters](#converters)
 1. [Formatters](#formatters)
 1. [Validators](#validators)
+1. [Encode and Decode](#encode-and-decode)
+1. [Minify and Beautify](#minify-and-beautify)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
@@ -62,6 +64,8 @@ Minify JavaScript | https://javascript-minifier.com/
 Unminify JS, CSS, HTML, XML, JSON | https://unminify.com/
 Markdown Live Preview | https://markdownlivepreview.com/
 JSON stringify | https://onlinetexttools.com/json-stringify-text
+Decimal to Hex | https://amp.convzone.com/decimal-to-hex/
+Hex to Decimal | https://amp.convzone.com/hex-to-decimal/
 
 [⬆ back to top](#table-of-contents)
 
@@ -83,5 +87,29 @@ HTML | https://validator.w3.org/
 CSS | http://www.css-validator.org/
 JavaScript | http://beautifytools.com/javascript-validator.php
 JSON | https://jsonlint.com/
+
+[⬆ back to top](#table-of-contents)
+
+7. ### Encode and Decode
+
+Name | URL
+------------- | -------------
+Base64 Encode | https://www.base64encode.org/
+Base 64 Decode | https://www.base64decode.org/
+URL Encode | https://www.urlencoder.org/
+URL Decode | https://www.urldecoder.org/
+
+[⬆ back to top](#table-of-contents)
+
+8. ### Minify and Beautify
+
+Name | URL
+------------- | -------------
+CSS Minify | https://amp.uglifycss.com/
+CSS Beautify | https://amp.prettifycss.com/
+JavaScript Minify | https://amp.uglifyjs.net/
+JavaScript Beautify | https://amp.prettifyjs.net/
+JSON Minify | https://amp.minifyjson.org/
+JSON Beautify | https://amp.beautifyjson.org/
 
 [⬆ back to top](#table-of-contents)
