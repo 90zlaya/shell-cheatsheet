@@ -1,4 +1,4 @@
-# URLs
+# GitHub Repos
 > Useful GitHub repositories for Web Development
 
 ## Table of Contents

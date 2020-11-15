@@ -1,5 +1,5 @@
-# URLs
-> Useful URLs for Web Development
+# Resources Cheatsheet
+> Useful resources for Web Development
 
 ## Table of Contents
 
