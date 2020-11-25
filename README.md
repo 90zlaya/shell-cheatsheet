@@ -15,4 +15,4 @@ Idea behind creation of this repository is making everyday Web Development proce
 
 ## Contribution
 
-You're welcome to contribute to this repository. 
+You're welcome to contribute to this repository.

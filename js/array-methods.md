@@ -29,8 +29,8 @@ const formulaOneChampions = [
     {
         name: 'Lewis Hamilton',
         country: 'Great Britain',
-        championships: 6,
-        winning_seasons: [2008, 2014, 2015, 2017, 2018, 2019]
+        championships: 7,
+        winning_seasons: [2008, 2014, 2015, 2017, 2018, 2019, 2020]
     },
     {
         name: 'Juan Manuel Fangio',
@@ -73,7 +73,7 @@ const championFromYear = formulaOneChampions.find((champion) => {
 ```js
 // Get all champions from Germany
 const championsFromCountry = formulaOneChampions.filter((champion) => {
-    return Object.is(champion.country, 'Germany');
+    return champion.country === 'Germany';
 });
 ```
 

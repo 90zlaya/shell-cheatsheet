@@ -53,6 +53,8 @@
 * When `require()` fails, it throws fatal error; when `include()` fails, it throws warning
 * `session_start()` is used to initiate session, `session_write_close()` is used to end session
 * `session_unregister()` is used to unregister a global variable from the current session, `session_unset()` frees all session variables
+* `intval()` is used to convert value to integer instead of `(int) $variableName`
+* `strval()` is used to convert value to string instead of `(string) $variableName`
 
 [⬆ back to top](#table-of-contents)
 
