@@ -1,4 +1,4 @@
-# Essential to know about PHP
+# PHP Knowledgebase
 > Important points about PHP
 
 
@@ -10,6 +10,8 @@
 1. [Functions](#functions)
 1. [Variables](#variables)
 1. [Code](#code)
+1. [Q&A](#q&a)
+1. [Resources](#resources)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
@@ -68,5 +70,22 @@
 6. ### Code
 
 * Result of following code `$i=016; echo $i/2;` will be 7 because leading zero of variable indicates octal number, and `016` in octal is `14` in decimal
+
+[⬆ back to top](#table-of-contents)
+
+7. ### Q&A
+
+Question | Answer
+-------- | --------
+What's the difference between an argument and a parameter? | A parameter is a variable in a method definition. When a method is called, the arguments are the data you pass into the method's parameters.
+
+[⬆ back to top](#table-of-contents)
+
+8. ### Resources
+
+Name  | URL
+------------- | -------------
+PSR-12: Extended Coding Style  | https://www.php-fig.org/psr/psr-12/
+Design Patterns PHP | https://designpatternsphp.readthedocs.io/en/latest/README.html
 
 [⬆ back to top](#table-of-contents)

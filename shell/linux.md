@@ -34,6 +34,9 @@ swapoff -a && swapon -a
 
 # Runs a sound test with static bouncing back and forth
 speaker-test --channels 2 --rate 48000 --device hw:0,3
+
+# Show live date and time
+watch -n 1 date
 ```
 
 [⬆ back to top](#table-of-contents)

@@ -74,6 +74,9 @@ git reset --hard
 
 # Reset changes to the specific commit
 git reset --hard <commit-hash>
+
+# Undo specific commit
+git checkout <commit-hash>
 ```
 
 [⬆ back to top](#table-of-contents)
@@ -128,6 +131,9 @@ git branch --merged
 
 # Get all non-merged branches
 git branch --no-merged
+
+# Create empty branch
+git checkout --orphan empty-branch && git rm -rf . && git commit --allow-empty -m "Initial commit" && git push -u origin empty-branch
 ```
 
 [⬆ back to top](#table-of-contents)

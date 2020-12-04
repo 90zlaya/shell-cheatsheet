@@ -42,7 +42,7 @@ svn cleanup --remove-unversioned
 svn info
 
 # Merge to local branch from server
-svn merge -r 10:HEAD <server-url>
+svn merge -r <server-url>
 ```
 
 [⬆ back to top](#table-of-contents)
