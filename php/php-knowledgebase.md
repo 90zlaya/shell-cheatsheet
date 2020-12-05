@@ -1,87 +1,83 @@
 # PHP Knowledgebase
 > Important points about PHP
 
-
 ## Table of Contents
 
-1. [Definitions](#definitions)
-1. [OOP](#oop)
-1. [Trait](#trait)
 1. [Functions](#functions)
 1. [Variables](#variables)
-1. [Code](#code)
-1. [Q&A](#q&a)
+1. [Questions and Answers](#questions-and-answers)
+1. [Differences in PHP](#differences-in-php)
 1. [Resources](#resources)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Definitions
+[⬆ back to top](#table-of-contents)
 
-* PHP abreviates from *Hypertext Preprocessor*
-* PEAR stand for *PHP Extension & Application Repository*
-* PSR abreviates from *PHP Standards Recommendations*
-* Three classes of errors are: *notices*, *warnings* and *fatal errors*
-* Session is a logical object enabling us to preserve temporary data across multiple *PHP* pages
-* Default session time is until closing the browser
-* Outputing anything to the browser before modifying *HTTP* headers will produce warning
+1. ### Functions
+
+Function | Explanation
+-------- | -----------
+| `file_get_contents` | Reads entire file into a string
+| `func_num_args` | Returns the number of arguments passed to the function
+| `htmlentities` | Convert all applicable characters to HTML entities
+| `htmlspecialchars` | Convert special characters to HTML entities
+| `strip_tags` | Strip HTML and PHP tags from a string
+| `session_start` | Start new or resume existing session
+| `session_unset` | Free all session variables
+| `urlencode` | URL-encodes string
 
 [⬆ back to top](#table-of-contents)
 
-2. ### OOP
+2. ### Variables
 
-* OOP support introduced in *PHP 5*
-* PHP supports only single inheritance
-* Keyword `final` means that the class cannot be extended, method can't be overwritten
-* Parent constructors are called explicitly
-
-[⬆ back to top](#table-of-contents)
-
-3. ### Trait
-
-* Use traits as mechanism that allows creation of reusable code
-* Trait is non-instatiable
+Variables | Explanation
+-------- | -----------
+| `$_SERVER` | Server and execution environment information
+| `$GLOBALS` | References all variables available in global scope
 
 [⬆ back to top](#table-of-contents)
 
-4. ### Functions
-
-* `htmlspecialchars()` or `urlencode()` are used when passing values trough form or URL
-* `echo` & `print` are used to display string
-* `file_get_contents()` is used for reading and storing strings in a file
-* `addslashes()` is used to escape data before storage, `stripslashes()` is used to remove escape characters before apostrophes in a string
-* `strip_tags()` removes *HTML* tags
-* `func_num_args()` to give the number of parameters passed into a function
-* `__sleep()` returns array of all variables that need to be saved, `__wakeup()` retrieves them
-* When `require()` fails, it throws fatal error; when `include()` fails, it throws warning
-* `session_start()` is used to initiate session, `session_write_close()` is used to end session
-* `session_unregister()` is used to unregister a global variable from the current session, `session_unset()` frees all session variables
-* `intval()` is used to convert value to integer instead of `(int) $variableName`
-* `strval()` is used to convert value to string instead of `(string) $variableName`
-
-[⬆ back to top](#table-of-contents)
-
-5. ### Variables
-
-* `$_SERVER['REMOTE_ADDR']` is used to get the *IP* address of end user
-* `$GLOBALS` is associative array including references to all variables which are currently defined in global scope of the script
-
-[⬆ back to top](#table-of-contents)
-
-6. ### Code
-
-* Result of following code `$i=016; echo $i/2;` will be 7 because leading zero of variable indicates octal number, and `016` in octal is `14` in decimal
-
-[⬆ back to top](#table-of-contents)
-
-7. ### Q&A
+3. ### Questions and Answers
 
 Question | Answer
 -------- | --------
-What's the difference between an argument and a parameter? | A parameter is a variable in a method definition. When a method is called, the arguments are the data you pass into the method's parameters.
+| What does PHP stands for? | PHP abreviates from *Hypertext Preprocessor*.
+| What does PSR stands for? | PSR from *PHP Standards Recommendations*.
+| What are three classes of errors? | Three classes of errors are: *notices*, *warnings* and *fatal errors*.
+| What is session? | Session is a logical object enabling us to preserve temporary data across multiple *PHP* pages. Default session time is until closing the browser. 
+| Does PHP support multiple inheritance? | No, PHP supports only single inheritance. 
+| What's the difference between an argument and a parameter? | A parameter is a variable in a method definition. When a method is called, the arguments are the data you pass into the method's parameters.
+| What is abstract class? | An abstract class is a class that contains at least one abstract method, which is a method without any actual code in it, just the name and the parameters, and that has been marked as "abstract".
+| What is the purpose of abstract classes? | The purpose of this is to provide a kind of template to inherit from and to force the inheriting class to implement the abstract methods.
+| Does abstract class supports multiple inheritance? | Abstract class can extend another abstract class, it can provide the implementation of interface, but it doesn't support multiple inheritance.
+| What is the difference between `require()` and `include()`? | The `require()` function is identical to `include()`, except that it handles errors differently. If an error occurs, the `include()` function generates a warning, but the script will continue execution. The `require()` generates a fatal error and the script will stop. 
+| What is the difference between `require_once()` and `include_once()`? | The `require_once()` statement is identical to `require()` except PHP will check if the file has already been included, and if so, not include (require) it again.
+| What will be result of following code `$i=016; echo $i/2;`? | Result will be 7 because leading zero of variable indicates octal number, and `016` in octal is `14` in decimal.
+| What is `trait` in PHP? | Trait is class-like non-instantiable mechanism that allows creation of reusable code.
+| What are class constants? | Class constant is variable declared inside a class with the `const` keyword. It's useful if you need to define some constant data within a class. Once declared, it cannot be changed. Class constants are case-sensitive, but it's recommended to name the constants in all uppercase letters. Class constant can be accessed from outside the class by using the class name followed by the scope resolution operator `::` followed by the constant name. 
+| What is intent of dependency injection technique? | The intent behind dependency injection is to achieve separation of concerns of construction and use of objects. This can increase readability and code reuse.
+| What is singleton in PHP? | A singleton is a particular kind of class that can be instantiated only once. It simply means that if an object of that class was already instantiated, the system will return it instead of creating new one. This pattern is used when common instance is needed or because instantiating a 'copy' of an already existent object is useles. Concidered as bad practice by some developers. 
+| What is recursive function? | Recursive function is a function that calls itself. It has condition known as *base case* which tells our recursive call when to stop, otherwise it will loop infinitely. 
+| What is PDO? | The PHP Data Objects (PDO) is an extension that defines a lightweight, consistent interface for accessing databases in PHP. PDO provide methods for prepared statements and working with objects. Using prepared statements will help with protection from SQL injection.
+| How is the keyword `finally` meant to be used in PHP? | Regardless of errors, exceptions or even `return` statements, the `finally` block of code will run. It will not run if the `try` or `catch` blocks execute `die` or `exit`.
 
 [⬆ back to top](#table-of-contents)
 
-8. ### Resources
+4. ### Differences in PHP
+
+* Interface vs Abstract class
+
+Interface | Abstract class
+-------------- | ---------
+| Supports multiple inheritance | Does not support multiple inheritance
+| Not containing data member | Contains data member
+| Not containing constructor | Contains constructor
+| Contains only incomplete member (signature of member) | Contains both incomplete (abstract) and complete member
+| Cannot have access modifiers, by default everything is assumed as public | Can contain access modifiers
+
+[⬆ back to top](#table-of-contents)
+
+5. ### Resources
 
 Name  | URL
 ------------- | -------------

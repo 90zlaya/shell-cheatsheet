@@ -14,5 +14,6 @@ Read more about [Unix shell](https://en.wikipedia.org/wiki/Unix_shell.md).
 1. [youtube-dl](youtube-dl.md)
 1. [vue-cli](vue-cli.md)
 1. [MySQL](mysql.md)
+1. [PHP](php.md)
 
 [↩ back to main table of contents](../README.md#main-table-of-contents)

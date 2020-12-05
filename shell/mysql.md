@@ -45,7 +45,7 @@ use <database-name>;
 select database();
 
 # Export database dump (logged out from mysql)
-mysqldump -u <username> -p <database-name> > <file-name>.sql;
+mysqldump -u <username> -p <database-name> > <filename>.sql;
 
 # Delete database
 drop database <database-name>;
