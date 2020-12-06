@@ -34,6 +34,7 @@ Development Resources| https://github.com/MarkoDenic/web-development-resources
 Learning Resources | https://github.com/lauragift21/awesome-learning-resources
 30 Seconds of Code | https://github.com/30-seconds/30-seconds-of-code
 Algorithms & Data Structures | https://github.com/excelbrium/algorithms-and-data-structures
+Don't Fear the RegEx | https://github.com/PHLAK/dont-fear-the-regex
 
 [⬆ back to top](#table-of-contents)
 

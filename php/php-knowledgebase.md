@@ -11,8 +11,6 @@
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-[⬆ back to top](#table-of-contents)
-
 1. ### Functions
 
 Function | Explanation
@@ -59,6 +57,7 @@ Question | Answer
 | What is singleton in PHP? | A singleton is a particular kind of class that can be instantiated only once. It simply means that if an object of that class was already instantiated, the system will return it instead of creating new one. This pattern is used when common instance is needed or because instantiating a 'copy' of an already existent object is useles. Concidered as bad practice by some developers. 
 | What is recursive function? | Recursive function is a function that calls itself. It has condition known as *base case* which tells our recursive call when to stop, otherwise it will loop infinitely. 
 | What is PDO? | The PHP Data Objects (PDO) is an extension that defines a lightweight, consistent interface for accessing databases in PHP. PDO provide methods for prepared statements and working with objects. Using prepared statements will help with protection from SQL injection.
+| Can PDO use exceptions to handle errors? | PDO can use exceptions to handle errors, which means anything being done with PDO should be wrapped in a `try`/`catch` block. You can force PDO into one of three error modes by setting the error mode attribute on newly created database handle.
 | How is the keyword `finally` meant to be used in PHP? | Regardless of errors, exceptions or even `return` statements, the `finally` block of code will run. It will not run if the `try` or `catch` blocks execute `die` or `exit`.
 
 [⬆ back to top](#table-of-contents)
