@@ -5,6 +5,7 @@ Read more about [MySQL](https://www.mysql.com/).
 
 ## List of Cheatsheets
 
+1. [MySQL Knowledgebase](mysql-knowledgebase.md)
 1. [Query Helper](query-helper.md)
 
 [↩ back to main table of contents](../README.md#main-table-of-contents)
