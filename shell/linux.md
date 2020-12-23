@@ -26,6 +26,9 @@ ps -ef | grep <app-name>
 # Kill all processes by given name
 killall <process_name>
 
+# Kill a port process
+fuser -k <port-number>/tcp
+
 # Get computer's hostname
 hostname -I
 
