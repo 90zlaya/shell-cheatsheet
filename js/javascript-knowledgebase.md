@@ -6,6 +6,7 @@
 1. [Prime Numbers](#prime-numbers)
 1. [Remove Duplicates](#remove-duplicates)
 1. [Copy Array](#copy-array)
+1. [Implementing Queue Using Stack and Vice Versa](#implementing-queue-using-stack-and-vice-versa)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
@@ -66,5 +67,40 @@ console.log('All numbers', allNumbers); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
 We are using spread syntax to create new array `allNumbers` and then add 8 and 9 to it. 
+
+[⬆ back to top](#table-of-contents)
+
+4. ### Implementing Queue Using Stack and Vice Versa
+
+We are given a stack data structure with push and pop operations. The task is to implement a queue using instances of stack data structure and operations on them. 
+
+Queue follows *FIFO* principle, which means first element pushed to the queue will be first element popped from the queue. Stack follows *LIFO* principle, which means last element pushed to the stack is the first element to be popped out of the stack. 
+
+```javascript
+let mainStack = []
+
+const enque = (enquedValue) => {
+    mainStack.push(enquedValue);
+}
+
+const deque = () => {
+    const tempStack = [...mainStack.reverse()];
+    const dequedValue = tempStack.pop();
+    mainStack = [...tempStack.reverse()];
+    return dequedValue;
+};
+
+enque(1); // mainStack: [1]
+enque(2); // mainStack: [1, 2]
+enque(3); // mainStack: [1, 2, 3]
+
+console.log('Dequed', deque()); // Dequed 1
+console.log('Dequed', deque()); // Dequed 2
+console.log('Dequed', deque()); // Dequed 3
+```
+
+When enqueuing, we pushed value to the main stack. For deque process, we introduced temporary stack and initialized it as reversed main stack. We popped item from this temp stack and now we want to save that value to the main stack, but we first have to return order of values to it's original state, which means another reverse. 
+
+Function `deque()` at each call returns numbers at the order they were enqueued, which means this task is properly solved because it works under *FIFO* principle.
 
 [⬆ back to top](#table-of-contents)
