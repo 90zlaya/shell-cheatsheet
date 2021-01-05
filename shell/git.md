@@ -92,6 +92,9 @@ git push origin :refs/tags/<tag-name>
 
 # Tags to branches
 git checkout tags/<tag-name> -b <branch-name>
+
+# Tag older commit
+git tag -a <version-number> <commit-number> -m "<tag-message>" && git push origin <version-number>
 ```
 
 [⬆ back to top](#table-of-contents)
