@@ -58,7 +58,7 @@ git log -n <number-of-commits> --author=<author-name>
 
 # Commit order
 git add *
-git commit -m '<message-content>'
+git commit -m "<message-content>"
 git pull
 git push
 
@@ -77,6 +77,9 @@ git reset --hard <commit-hash>
 
 # Undo specific commit
 git checkout <commit-hash>
+
+# Rename last commit message
+git commit --amend -m "<message-content>" && git push --force <branch-name>
 ```
 
 [⬆ back to top](#table-of-contents)
