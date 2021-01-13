@@ -88,6 +88,7 @@ HTML | https://validator.w3.org/
 CSS | http://www.css-validator.org/
 JavaScript | http://beautifytools.com/javascript-validator.php
 JSON | https://jsonlint.com/
+XML | https://www.xmlvalidation.com/
 
 [⬆ back to top](#table-of-contents)
 
