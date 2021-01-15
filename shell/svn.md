@@ -5,13 +5,13 @@ Read more about [SVN](https://subversion.apache.org/).
 
 ## Table of Contents
 
-1. [Misc](#misc)
-1. [Revert](#revert)
-1. [Log](#log)
+* [Misc](#misc)
+* [Revert](#revert)
+* [Log](#log)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Misc
+## Misc
 
 ```bash
 # Status of files
@@ -47,7 +47,7 @@ svn merge -r 1:HEAD <server-url>
 
 [⬆ back to top](#table-of-contents)
 
-2. ### Revert
+## Revert
 
 ```bash
 # Revert file
@@ -59,7 +59,7 @@ svn revert -R <path-to-the-directory>
 
 [⬆ back to top](#table-of-contents)
 
-3. ### Log
+## Log
 
 ```bash
 # Show log

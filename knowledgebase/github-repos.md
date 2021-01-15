@@ -3,17 +3,17 @@
 
 ## Table of Contents
 
-1. [Misc](#misc)
-1. [Cheatsheets](#cheatsheets)
-1. [CSS](#css)
-1. [Vue.js](#vuejs)
-1. [JavaScript](#javascript)
-1. [PHP](#php)
-1. [Zendesk](#zendesk)
+* [Misc](#misc)
+* [Cheatsheets](#cheatsheets)
+* [CSS](#css)
+* [Vue.js](#vuejs)
+* [JavaScript](#javascript)
+* [PHP](#php)
+* [Zendesk](#zendesk)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Misc
+## Misc
 
 Name | URL
 ------------- | -------------
@@ -22,7 +22,7 @@ Public APIs | https://github.com/public-apis/public-apis
 
 [⬆ back to top](#table-of-contents)
 
-2. ### Cheatsheets
+## Cheatsheets
 
 Name | URL
 ------------- | -------------
@@ -38,7 +38,7 @@ Don't Fear the RegEx | https://github.com/PHLAK/dont-fear-the-regex
 
 [⬆ back to top](#table-of-contents)
 
-3. ### CSS
+## CSS
 
 Name | URL
 ------------- | -------------
@@ -50,7 +50,7 @@ CSS Hexagons | https://github.com/shariarbd/CSS3-Hexagon-Buttons
 
 [⬆ back to top](#table-of-contents)
 
-4. ### Vue.js
+## Vue.js
 
 Name | URL
 ------------- | -------------
@@ -61,7 +61,7 @@ Vue 2 Datepicker | https://github.com/mengxiong10/vue2-datepicker
 
 [⬆ back to top](#table-of-contents)
 
-5. ### JavaScript
+## JavaScript
 
 Name | URL
 ------------- | -------------
@@ -72,7 +72,7 @@ Obfuscator | https://github.com/javascript-obfuscator/javascript-obfuscator
 
 [⬆ back to top](#table-of-contents)
 
-6. ### PHP
+## PHP
 
 Name | URL
 ------------- | -------------
@@ -90,7 +90,7 @@ CodeIgniter | https://github.com/bcit-ci/CodeIgniter
 
 [⬆ back to top](#table-of-contents)
 
-7. ### Zendesk
+## Zendesk
 
 Name | URL
 ------------- | -------------

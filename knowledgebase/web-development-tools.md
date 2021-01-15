@@ -3,18 +3,18 @@
 
 ## Table of Contents
 
-1. [Uncategorized](#uncategorized)
-1. [Courses](#courses)
-1. [Images and Files](#images-and-files)
-1. [Converters](#converters)
-1. [Formatters](#formatters)
-1. [Validators](#validators)
-1. [Encode and Decode](#encode-and-decode)
-1. [Minify and Beautify](#minify-and-beautify)
+* [Uncategorized](#uncategorized)
+* [Courses](#courses)
+* [Images and Files](#images-and-files)
+* [Converters](#converters)
+* [Formatters](#formatters)
+* [Validators](#validators)
+* [Encode and Decode](#encode-and-decode)
+* [Minify and Beautify](#minify-and-beautify)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Uncategorized
+## Uncategorized
 
 Name | URL
 ------------- | -------------
@@ -28,7 +28,7 @@ Pasword Generator | https://passwordsgenerator.net/
 
 [⬆ back to top](#table-of-contents)
 
-2. ### Courses
+## Courses
 
 Name | URL
 ------------- | -------------
@@ -36,7 +36,7 @@ Vue.js & JavaScript Free Courses | https://vueschool.io/courses?filter=free-cour
 
 [⬆ back to top](#table-of-contents)
 
-3. ### Images and Files
+## Images and Files
 
 Name | URL
 ------------- | -------------
@@ -53,7 +53,7 @@ Markdown Guide | https://guides.github.com/features/mastering-markdown/
 
 [⬆ back to top](#table-of-contents)
 
-4. ### Converters
+## Converters
 
 Name | URL
 ------------- | -------------
@@ -70,7 +70,7 @@ Hex to Decimal | https://amp.convzone.com/hex-to-decimal/
 
 [⬆ back to top](#table-of-contents)
 
-5. ### Formatters
+## Formatters
 
 Name | URL
 ------------- | -------------
@@ -80,7 +80,7 @@ JSON | https://jsonformatter.curiousconcept.com/
 
 [⬆ back to top](#table-of-contents)
 
-6. ### Validators
+## Validators
 
 Name | URL
 ------------- | -------------
@@ -92,7 +92,7 @@ XML | https://www.xmlvalidation.com/
 
 [⬆ back to top](#table-of-contents)
 
-7. ### Encode and Decode
+## Encode and Decode
 
 Name | URL
 ------------- | -------------
@@ -103,7 +103,7 @@ URL Decode | https://www.urldecoder.org/
 
 [⬆ back to top](#table-of-contents)
 
-8. ### Minify and Beautify
+## Minify and Beautify
 
 Name | URL
 ------------- | -------------

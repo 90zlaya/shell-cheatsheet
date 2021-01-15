@@ -5,16 +5,16 @@ Read more about [Linux](https://www.linux.org/).
 
 ## Table of Contents
 
-1. [Misc](#misc)
-1. [Useful](#useful)
-1. [apt](#apt)
-1. [Directory](#directory)
-1. [File](#file)
-1. [Aliases](#aliases)
+* [Misc](#misc)
+* [Useful](#useful)
+* [apt](#apt)
+* [Directory](#directory)
+* [File](#file)
+* [Aliases](#aliases)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Misc
+## Misc
 
 ```bash
 # Switch to superuser in terminal
@@ -44,7 +44,7 @@ watch -n 1 date
 
 [⬆ back to top](#table-of-contents)
 
-2. ### Useful
+## Useful
 
 ```bash
 # Install & run OS configuration tools
@@ -67,7 +67,7 @@ tree
 
 [⬆ back to top](#table-of-contents)
 
-3. ### apt
+## apt
 
 ```bash
 # Search packages
@@ -97,7 +97,7 @@ add-apt-repository -r ppa:<ppa-to-remove>
 
 [⬆ back to top](#table-of-contents)
 
-4. ### Directory
+## Directory
 
 ```bash
 # List current path
@@ -130,7 +130,7 @@ rm -fv *.<extension>
 
 [⬆ back to top](#table-of-contents)
 
-5. ### File
+## File
 
 ```bash
 # Create shortcut
@@ -148,7 +148,7 @@ cp <source-filename> <location-filename>
 
 [⬆ back to top](#table-of-contents)
 
-6. ### Aliases
+## Aliases
 
 ```bash
 # List of aliases

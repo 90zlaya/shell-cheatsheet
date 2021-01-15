@@ -3,11 +3,11 @@
 
 ## Table of Contents
 
-1. [Questions and Answers](#questions-and-answers)
+* [Questions and Answers](#questions-and-answers)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Questions and Answers
+## Questions and Answers
 
 Question | Answer
 -------- | --------

@@ -5,13 +5,13 @@ Read more about [MySQL](https://www.mysql.com/).
 
 ## Table of Contents
 
-1. [Misc](#misc)
-1. [Databases](#databases)
-1. [Tables](#tables)
+* [Misc](#misc)
+* [Databases](#databases)
+* [Tables](#tables)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Misc
+## Misc
 
 ```bash
 # Login
@@ -29,7 +29,7 @@ exit;
 
 [⬆ back to top](#table-of-contents)
 
-2. ### Databases
+## Databases
 
 ```bash
 # Show all databases
@@ -53,7 +53,7 @@ drop database <database-name>;
 
 [⬆ back to top](#table-of-contents)
 
-3. ### Tables
+## Tables
 
 ```bash
 # Show all tables

@@ -5,15 +5,15 @@ Read more about [array methods](https://developer.mozilla.org/en-US/docs/Web/Jav
 
 ## Table of Contents
 
-1. [Data Object](#data-object)
-1. [Find Method](#find-method)
-1. [Filter Method](#filter-method)
-1. [Map Method](#map-method)
-1. [Reduce Method](#reduce-method)
+* [Data Object](#data-object)
+* [Find Method](#find-method)
+* [Filter Method](#filter-method)
+* [Map Method](#map-method)
+* [Reduce Method](#reduce-method)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Data Object
+## Data Object
 
 We're starting with Formula 1 champions list:
 
@@ -57,7 +57,7 @@ Then we're going to use methods to get specific data from this data object.
 
 [⬆ back to top](#table-of-contents)
 
-2. ### Find Method
+## Find Method
 
 ```js
 // Get champion for season 1989
@@ -68,7 +68,7 @@ const championFromYear = formulaOneChampions.find((champion) => {
 
 [⬆ back to top](#table-of-contents)
 
-3. ### Filter Method
+## Filter Method
 
 ```js
 // Get all champions from Germany
@@ -79,7 +79,7 @@ const championsFromCountry = formulaOneChampions.filter((champion) => {
 
 [⬆ back to top](#table-of-contents)
 
-4. ### Map Method
+## Map Method
 
 ```js
 // Get all winning seasons from oldest to newest
@@ -90,7 +90,7 @@ const allWinningSeasons = formulaOneChampions.map((champion) => {
 
 [⬆ back to top](#table-of-contents)
 
-5. ### Reduce Method
+## Reduce Method
 
 Method `reduce` is used in combination with `map` and `sort`. We want to get all winning seasons by using `map`, but this is array with arrays of winning seasons. We need to reduce them to one array of all winning seasons by using `reduce` method. Finally, we want all years alligned chronologically and `sort` method helps us to achieve this.
 

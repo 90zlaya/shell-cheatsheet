@@ -5,11 +5,11 @@ Read more about [youtube-dl](https://youtube-dl.org/).
 
 ## Table of Contents
 
-1. [Misc](#misc)
+* [Misc](#misc)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Misc
+## Misc
 
 ```bash
 # Download using cURL (install or update) and set permissions

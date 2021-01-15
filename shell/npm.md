@@ -5,12 +5,12 @@ Read more about [NPM](https://www.npmjs.com/).
 
 ## Table of Contents
 
-1. [Misc](#misc)
-1. [Install and Remove](#install-and-remove)
+* [Misc](#misc)
+* [Install and Remove](#install-and-remove)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Misc
+## Misc
 
 ```bash
 # Where npm was installed
@@ -40,7 +40,7 @@ npm audit fix
 
 [⬆ back to top](#table-of-contents)
 
-2. ### Install and Remove
+## Install and Remove
 
 ```bash
 # Listing packages

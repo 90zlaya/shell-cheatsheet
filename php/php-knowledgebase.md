@@ -3,15 +3,16 @@
 
 ## Table of Contents
 
-1. [Functions](#functions)
-1. [Variables](#variables)
-1. [Questions and Answers](#questions-and-answers)
-1. [Differences in PHP](#differences-in-php)
-1. [Resources](#resources)
+* [Functions](#functions)
+* [Variables](#variables)
+* [Questions and Answers](#questions-and-answers)
+* [Differences in PHP](#differences-in-php)
+    * [Interface vs Abstract class](#interface-vs-abstract-class)
+* [Resources](#resources)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Functions
+## Functions
 
 Function | Explanation
 -------- | -----------
@@ -26,7 +27,7 @@ Function | Explanation
 
 [⬆ back to top](#table-of-contents)
 
-2. ### Variables
+## Variables
 
 Variables | Explanation
 -------- | -----------
@@ -35,7 +36,7 @@ Variables | Explanation
 
 [⬆ back to top](#table-of-contents)
 
-3. ### Questions and Answers
+## Questions and Answers
 
 Question | Answer
 -------- | --------
@@ -62,9 +63,9 @@ Question | Answer
 
 [⬆ back to top](#table-of-contents)
 
-4. ### Differences in PHP
+## Differences in PHP
 
-* Interface vs Abstract class
+### Interface vs Abstract class
 
 Interface | Abstract class
 -------------- | ---------
@@ -76,7 +77,7 @@ Interface | Abstract class
 
 [⬆ back to top](#table-of-contents)
 
-5. ### Resources
+## Resources
 
 Name  | URL
 ------------- | -------------

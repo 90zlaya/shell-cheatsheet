@@ -5,12 +5,12 @@ Read more about [PHPUnit](https://phpunit.de/).
 
 ## Table of Contents
 
-1. [Misc](#misc)
-1. [Assertions](#assertions)
+* [Misc](#misc)
+* [Assertions](#assertions)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Misc
+## Misc
 
 ```php
 // Assert that variable is true with message
@@ -28,7 +28,7 @@ if (!extension_loaded('mysqli'))
 
 [⬆ back to top](#table-of-contents)
 
-2. ### Assertions
+## Assertions
 
 ```php
 $this->assertEquals($givenValue, $comparisonValue);

@@ -3,11 +3,11 @@
 
 ## Main Table of Contents
 
-1. [Shell](shell/README.md)
-1. [JavaScript](js/README.md)
-1. [PHP](php/README.md)
-1. [MySQL](mysql/README.md)
-1. [Knowledgebase](knowledgebase/README.md)
+* [Shell](shell/README.md)
+* [JavaScript](js/README.md)
+* [PHP](php/README.md)
+* [MySQL](mysql/README.md)
+* [Knowledgebase](knowledgebase/README.md)
 
 ## Inspiration
 

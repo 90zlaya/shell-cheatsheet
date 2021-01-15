@@ -5,16 +5,16 @@ Read more about [Git](https://git-scm.com/).
 
 ## Table of Contents
 
-1. [Misc](#misc)
-1. [Commits](#commits)
-1. [Tags](#tags)
-1. [Branches](#branches)
-1. [Users](#users)
-1. [Remote](#remote)
+* [Misc](#misc)
+* [Commits](#commits)
+* [Tags](#tags)
+* [Branches](#branches)
+* [Users](#users)
+* [Remote](#remote)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Misc
+## Misc
 
 ```bash
 # Get verion of Git
@@ -41,7 +41,7 @@ git restore -s@ -SW  -- <directory>
 
 [⬆ back to top](#table-of-contents)
 
-2. ### Commits
+## Commits
 
 ```bash
 # Check commits short log
@@ -84,7 +84,7 @@ git commit --amend -m "<message-content>" && git push --force <branch-name>
 
 [⬆ back to top](#table-of-contents)
 
-3. ### Tags
+## Tags
 
 ```bash
 # Delete a local tag
@@ -102,7 +102,7 @@ git tag -a <version-number> <commit-number> -m "<tag-message>" && git push origi
 
 [⬆ back to top](#table-of-contents)
 
-4. ### Branches
+## Branches
 
 ```bash
 # Show current branch
@@ -144,7 +144,7 @@ git checkout --orphan empty-branch && git rm -rf . && git commit --allow-empty -
 
 [⬆ back to top](#table-of-contents)
 
-5. ### Users
+## Users
 
 ```bash
 # Get global user
@@ -157,7 +157,7 @@ git config --global user.email "<email>"
 
 [⬆ back to top](#table-of-contents)
 
-6. ### Remote
+## Remote
 
 ```bash
 # Get remote version

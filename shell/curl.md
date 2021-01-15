@@ -5,11 +5,11 @@ Read more about [cURL](https://curl.haxx.se/).
 
 ## Table of Contents
 
-1. [Misc](#misc)
+* [Misc](#misc)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Misc
+## Misc
 
 ```bash
 # Get page content

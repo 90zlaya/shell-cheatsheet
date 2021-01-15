@@ -5,12 +5,12 @@ Read more about [PHP](https://www.php.net/).
 
 ## Table of Contents
 
-1. [Misc](#misc)
-1. [Run](#run)
+* [Misc](#misc)
+* [Run](#run)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Misc
+## Misc
 
 ```bash
 # PHP information
@@ -25,7 +25,7 @@ php --ini
 
 [⬆ back to top](#table-of-contents)
 
-2. ### Run
+## Run
 
 ```bash
 # Run with built-in web server

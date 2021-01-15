@@ -3,14 +3,14 @@
 
 ## Table of Contents
 
-1. [Prime Numbers](#prime-numbers)
-1. [Remove Duplicates](#remove-duplicates)
-1. [Copy Array](#copy-array)
-1. [Implementing Queue Using Stack and Vice Versa](#implementing-queue-using-stack-and-vice-versa)
+* [Prime Numbers](#prime-numbers)
+* [Remove Duplicates](#remove-duplicates)
+* [Copy Array](#copy-array)
+* [Implementing Queue Using Stack](#implementing-queue-using-stack)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Prime Numbers
+## Prime Numbers
 
 [Theory about prime number](https://en.wikipedia.org/wiki/Prime_number) states that a prime number is a natural number greater than 1 that is not a product of two smaller natural numbers. A natural number greater than 1 that is not prime is called a composite number. Number 2 is prime number but all other even numbers aren't prime (they are composite numbers). Only odd numbers qualify to be prime numbers. 
 
@@ -42,7 +42,7 @@ console.log(isPrime(1000000000000001)); // Will enter loop for 3 times and retur
 
 [⬆ back to top](#table-of-contents)
 
-2. ### Remove Duplicates
+## Remove Duplicates
 
 The objective is to create sorted array of unique numbers from given array `repeatingNumbers` in fewest lines.
 
@@ -56,7 +56,7 @@ We are using `Set` to get unique values which returns `object`, so spread syntax
 
 [⬆ back to top](#table-of-contents)
 
-3. ### Copy Array
+## Copy Array
 
 The objective is to copy array `originalNumbers` to new array `allNumbers` and add 8 and 9 to newly created array in fewest lines.
 
@@ -70,7 +70,7 @@ We are using spread syntax to create new array `allNumbers` and then add 8 and 9
 
 [⬆ back to top](#table-of-contents)
 
-4. ### Implementing Queue Using Stack and Vice Versa
+## Implementing Queue Using Stack
 
 We are given a stack data structure with push and pop operations. The task is to implement a queue using instances of stack data structure and operations on them. 
 

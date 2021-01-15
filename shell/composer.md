@@ -5,13 +5,13 @@ Read more about [Composer](https://getcomposer.org/).
 
 ## Table of Contents
 
-1. [Misc](#misc)
-1. [Version](#version)
-1. [Packages](#packages)
+* [Misc](#misc)
+* [Version](#version)
+* [Packages](#packages)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
-1. ### Misc
+## Misc
 
 ```bash
 # Initialize composer
@@ -53,7 +53,7 @@ composer exec <script>
 
 [⬆ back to top](#table-of-contents)
 
-2. ### Version
+## Version
 
 ```bash
 # Get installed version
@@ -65,7 +65,7 @@ composer self-update
 
 [⬆ back to top](#table-of-contents)
 
-3. ### Packages
+## Packages
 
 ```bash
 # Install package
