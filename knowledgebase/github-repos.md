@@ -9,6 +9,9 @@
 * [Vue.js](#vuejs)
 * [JavaScript](#javascript)
 * [PHP](#php)
+    * [PHP Misc](#php-misc)
+    * [PHP Frameworks](#php-frameworks)
+    * [PHP Libraries](#php-libraries)
 * [Zendesk](#zendesk)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
@@ -35,6 +38,7 @@ Learning Resources | https://github.com/lauragift21/awesome-learning-resources
 30 Seconds of Code | https://github.com/30-seconds/30-seconds-of-code
 Algorithms & Data Structures | https://github.com/excelbrium/algorithms-and-data-structures
 Don't Fear the RegEx | https://github.com/PHLAK/dont-fear-the-regex
+Naming cheatsheet | https://github.com/kettanaito/naming-cheatsheet
 
 [⬆ back to top](#table-of-contents)
 
@@ -74,19 +78,37 @@ Obfuscator | https://github.com/javascript-obfuscator/javascript-obfuscator
 
 ## PHP
 
+### PHP Misc
+
+Name | URL
+------------- | -------------
+Design Patterns | https://github.com/domnikl/DesignPatternsPHP
+PHP Developer Roadmap | https://github.com/thecodeholic/php-developer-roadmap
+
+[⬆ back to top](#table-of-contents)
+
+### PHP Frameworks
+
+Name | URL
+------------- | -------------
+Laravel | https://github.com/laravel/laravel
+Symphony | https://github.com/symfony/symfony
+CodeIgniter | https://github.com/bcit-ci/CodeIgniter
+
+[⬆ back to top](#table-of-contents)
+
+### PHP Libraries
+
 Name | URL
 ------------- | -------------
 Spreadsheet | https://github.com/PHPOffice/PhpSpreadsheet
 CodeSniffer | https://github.com/squizlabs/PHP_CodeSniffer
 Static Analysis | https://github.com/phpstan/phpstan
 Logging | https://github.com/apache/logging-log4php
+Mailer | https://github.com/PHPMailer/PHPMailer
 Viber Bot | https://github.com/Bogdaan/viber-bot-php
-Design Patterns | https://github.com/domnikl/DesignPatternsPHP
 CodeIgniter RESTServer | https://github.com/chriskacerguis/codeigniter-restserver
-PHP Mailer | https://github.com/PHPMailer/PHPMailer
-Laravel | https://github.com/laravel/laravel
-Symphony | https://github.com/symfony/symfony
-CodeIgniter | https://github.com/bcit-ci/CodeIgniter
+Guzzle, PHP HTTP client | https://github.com/guzzle/guzzle
 
 [⬆ back to top](#table-of-contents)
 
