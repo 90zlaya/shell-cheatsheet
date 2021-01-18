@@ -3,38 +3,12 @@
 
 ## Table of Contents
 
-* [Functions](#functions)
-* [Variables](#variables)
 * [Questions and Answers](#questions-and-answers)
 * [Differences in PHP](#differences-in-php)
     * [Interface vs Abstract class](#interface-vs-abstract-class)
 * [Resources](#resources)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
-
-## Functions
-
-Function | Explanation
--------- | -----------
-| `file_get_contents` | Reads entire file into a string
-| `func_num_args` | Returns the number of arguments passed to the function
-| `htmlentities` | Convert all applicable characters to HTML entities
-| `htmlspecialchars` | Convert special characters to HTML entities
-| `strip_tags` | Strip HTML and PHP tags from a string
-| `session_start` | Start new or resume existing session
-| `session_unset` | Free all session variables
-| `urlencode` | URL-encodes string
-
-[⬆ back to top](#table-of-contents)
-
-## Variables
-
-Variables | Explanation
--------- | -----------
-| `$_SERVER` | Server and execution environment information
-| `$GLOBALS` | References all variables available in global scope
-
-[⬆ back to top](#table-of-contents)
 
 ## Questions and Answers
 
@@ -81,6 +55,9 @@ Interface | Abstract class
 
 Name  | URL
 ------------- | -------------
+PHP Manual | https://www.php.net/manual/en/index.php
+w3schools | https://www.w3schools.com/php/default.asp
+TutorialRepublic | https://www.tutorialrepublic.com/php-tutorial/
 PSR-12: Extended Coding Style  | https://www.php-fig.org/psr/psr-12/
 Design Patterns PHP | https://designpatternsphp.readthedocs.io/en/latest/README.html
 

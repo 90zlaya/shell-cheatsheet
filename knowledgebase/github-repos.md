@@ -84,6 +84,7 @@ Name | URL
 ------------- | -------------
 Design Patterns | https://github.com/domnikl/DesignPatternsPHP
 PHP Developer Roadmap | https://github.com/thecodeholic/php-developer-roadmap
+PHP 8.0 Changes | https://github.com/thecodeholic/php8.0-changes
 
 [⬆ back to top](#table-of-contents)
 
