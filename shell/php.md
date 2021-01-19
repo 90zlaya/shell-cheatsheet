@@ -29,10 +29,10 @@ php --ini
 
 ```bash
 # Run with built-in web server
-php -S <addres>:<port>
+php -S [addres]:[port]
 
 # Parse and execute file
-php -f <filename>
+php -f [filename]
 
 # Run interactively
 php -a

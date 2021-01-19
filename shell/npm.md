@@ -23,7 +23,7 @@ npm -v
 npm install npm@latest -g
 
 # Searching for packages
-npm search <package-name>
+npm search [package-name]
 
 # Clean cached packages
 npm cache clean --force
@@ -50,16 +50,16 @@ npm list
 npm outdated
 
 # Install package
-npm install <package-name>
+npm install [package-name]
 
 # Update package
-npm update <package-name>
+npm update [package-name]
 
 # Remove package
-npm remove <package-name>
+npm remove [package-name]
 
 # Install specific version of a package
-npm install <package-name>@<version>
+npm install [package-name]@[version]
 
 # Remove extraneous packages
 npm prune

@@ -20,7 +20,7 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 youtube-dl --version
 
 # Download playlist in mp3 format
-youtube-dl -x --audio-format mp3 <playlist-url>
+youtube-dl -x --audio-format mp3 [playlist-url]
 ```
 
 [⬆ back to top](#table-of-contents)

@@ -13,25 +13,25 @@ Read more about [cURL](https://curl.haxx.se/).
 
 ```bash
 # Get page content
-curl -I <url>
+curl -I [url]
 
 # Get page content and headers
-curl -u <url>
+curl -u [url]
 
 # Download to file
-curl -o <file> <url>
+curl -o [file] [url]
 
 # Resume download
-curl -L -O -C - <url>
+curl -L -O -C - [url]
 
 # Display data in JSON for username and password
-curl <url> \ -v -u <username>:<password> | json_pp
+curl [url] \ -v -u [username]:[password] | json_pp
 
 # Post JSON data
-curl <url> \ -d '<json-data>' \ -H "Content-Type: application/json" -X POST \ -v -u {<username>}:{<password>}
+curl [url] \ -d "[json-data]" \ -H "Content-Type: application/json" -X POST \ -v -u {[username]}:{[password]}
 
 # Get HTTP status code
-curl -LI <url> -o /dev/null -w '%{http_code}\n' -s
+curl -LI [url] -o /dev/null -w "%{http_code}\n" -s
 ```
 
 [⬆ back to top](#table-of-contents)

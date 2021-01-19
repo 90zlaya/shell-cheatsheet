@@ -47,8 +47,8 @@ composer search
 # Validates a composer.json and composer.lock
 composer validate
 
-# Executes a vendored binary/script (same as bash <script>)
-composer exec <script>
+# Executes a vendored binary/script (same as bash [script])
+composer exec [script]
 ```
 
 [⬆ back to top](#table-of-contents)
@@ -69,13 +69,13 @@ composer self-update
 
 ```bash
 # Install package
-composer install <vendor/package-name>
+composer install [vendor/package-name]
 
 # Remove package
-composer remove <vendor/package-name>
+composer remove [vendor/package-name]
 
 # Shows which pacages cause the given package to be installed
-composer depends <vendor/package-name>
+composer depends [vendor/package-name]
 ```
 
 [⬆ back to top](#table-of-contents)

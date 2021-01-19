@@ -15,7 +15,7 @@ Read more about [MySQL](https://www.mysql.com/).
 
 ```bash
 # Login
-mysql -u <username> -p;
+mysql -u [username] -p;
 
 # Get helper
 help;
@@ -36,19 +36,19 @@ exit;
 show databases;
 
 # Create new database
-create database <database-name>;
+create database [database-name];
 
 # Select database
-use <database-name>;
+use [database-name];
 
 # Get used database name
 select database();
 
 # Export database dump (logged out from mysql)
-mysqldump -u <username> -p <database-name> > <filename>.sql;
+mysqldump -u [username] -p [database-name] > [filename].sql;
 
 # Delete database
-drop database <database-name>;
+drop database [database-name];
 ```
 
 [⬆ back to top](#table-of-contents)
@@ -60,10 +60,10 @@ drop database <database-name>;
 show tables;
 
 # Show table structure
-describe <table-name>;
+describe [table-name];
 
 # Show indexes on a table
-show index from <table-name>;
+show index from [table-name];
 ```
 
 [⬆ back to top](#table-of-contents)

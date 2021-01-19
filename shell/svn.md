@@ -18,22 +18,22 @@ Read more about [SVN](https://subversion.apache.org/).
 svn st
 
 # Add file
-svn add <filename>
+svn add [filename]
 
 # Remove file
-svn rm <filename>
+svn rm [filename]
 
 # Show differences
 svn diff
 
 # Clone repository
-svn checkout <server-url> <local-folder>
+svn checkout [server-url] [local-folder]
 
 # Update repository
 svn update
 
 # Commit changes with message
-svn commit -m '<message-content>'
+svn commit -m "[message-content]"
 
 # Automatically remove unversioned files
 svn cleanup --remove-unversioned
@@ -42,7 +42,7 @@ svn cleanup --remove-unversioned
 svn info
 
 # Merge to local branch from server
-svn merge -r 1:HEAD <server-url>
+svn merge -r 1:HEAD [server-url]
 ```
 
 [⬆ back to top](#table-of-contents)
@@ -51,10 +51,10 @@ svn merge -r 1:HEAD <server-url>
 
 ```bash
 # Revert file
-svn revert <path-to-the-file>
+svn revert [path-to-the-file]
 
 # Revert directory
-svn revert -R <path-to-the-directory>
+svn revert -R [path-to-the-directory]
 ```
 
 [⬆ back to top](#table-of-contents)
@@ -66,7 +66,7 @@ svn revert -R <path-to-the-directory>
 svn log
 
 # Show log for last n commits
-svn log -l <number-of-commits>
+svn log -l [number-of-commits]
 ```
 
 [⬆ back to top](#table-of-contents)

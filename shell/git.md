@@ -27,16 +27,16 @@ git init
 git config credential.helper store
 
 # Clone to repository
-git clone <repository-url>
+git clone [repository-url]
 
 # Get differences between files
 git diff --staged
 
 # Reset changes to the file
-git checkout HEAD -- <filename>
+git checkout HEAD -- [filename]
 
 # Restore changes to directory
-git restore -s@ -SW  -- <directory>
+git restore -s@ -SW  -- [directory]
 ```
 
 [⬆ back to top](#table-of-contents)
@@ -48,38 +48,38 @@ git restore -s@ -SW  -- <directory>
 git shortlog
 
 # Get last n commits
-git log -n <number-of-commits>
+git log -n [number-of-commits]
 
 # Get last n commits in one line
-git log -n <number-of-commits> --oneline
+git log -n [number-of-commits] --oneline
 
 # Get last n commits by author
-git log -n <number-of-commits> --author=<author-name>
+git log -n [number-of-commits] --author=[author-name]
 
 # Commit order
 git add *
-git commit -m "<message-content>"
+git commit -m "[message-content]"
 git pull
 git push
 
 # Remove files from stage area
-git rm --cached <filename>
+git rm --cached [filename]
 
 # Add local repository to the server for the first time
-git remote add origin <remote-location>
+git remote add origin [remote-location]
 git push -u origin master
 
 # Reset changes to the last commit
 git reset --hard
 
 # Reset changes to the specific commit
-git reset --hard <commit-hash>
+git reset --hard [commit-hash]
 
 # Undo specific commit
-git checkout <commit-hash>
+git checkout [commit-hash]
 
 # Rename last commit message
-git commit --amend -m "<message-content>" && git push --force <branch-name>
+git commit --amend -m "[message-content]" && git push --force [branch-name]
 ```
 
 [⬆ back to top](#table-of-contents)
@@ -88,16 +88,16 @@ git commit --amend -m "<message-content>" && git push --force <branch-name>
 
 ```bash
 # Delete a local tag
-git tag -d <tag-name>
+git tag -d [tag-name]
 
 # Remove tags remotely
-git push origin :refs/tags/<tag-name>
+git push origin :refs/tags/[tag-name]
 
 # Tags to branches
-git checkout tags/<tag-name> -b <branch-name>
+git checkout tags/[tag-name] -b [branch-name]
 
 # Tag older commit
-git tag -a <version-number> <commit-number> -m "<tag-message>" && git push origin <version-number>
+git tag -a [version-number] [commit-number] -m "[tag-message]" && git push origin [version-number]
 ```
 
 [⬆ back to top](#table-of-contents)
@@ -115,22 +115,22 @@ git branch -a
 git branch -r
 
 # Switch to branch
-git checkout <branch-name>
+git checkout [branch-name]
 
 # Create branch
-git branch <branch-name>
+git branch [branch-name]
 
 # Clone branch
-git clone --branch <branch-name>
+git clone --branch [branch-name]
 
 # Delete branch
-git branch -d <branch-name>
+git branch -d [branch-name]
 
 # Set specific branch to be master for pushed commits
-git push --set-upstream origin <branch-name>
+git push --set-upstream origin [branch-name]
 
 # Merge branch to master
-git merge <branch-name>
+git merge [branch-name]
 
 # Get all merged branches
 git branch --merged
@@ -151,8 +151,8 @@ git checkout --orphan empty-branch && git rm -rf . && git commit --allow-empty -
 git config --global --list
 
 # Set global user
-git config --global user.name  "<username>"
-git config --global user.email "<email>"
+git config --global user.name  "[username]"
+git config --global user.email "[email]"
 ```
 
 [⬆ back to top](#table-of-contents)
@@ -164,16 +164,16 @@ git config --global user.email "<email>"
 git remote -v
 
 # Set remote origin URL
-git remote set-url <url-path>
+git remote set-url [url-path]
 
 # Change directory and remote path
-git remote set-url --add origin <url-path>
+git remote set-url --add origin [url-path]
 
 # Edit remote location
 git remote -v
 git remote rm origin
-git remote add origin <url-path>
-git push --set-upstream <url-path>
+git remote add origin [url-path]
+git push --set-upstream [url-path]
 ```
 
 [⬆ back to top](#table-of-contents)
