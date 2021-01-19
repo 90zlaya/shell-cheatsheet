@@ -6,6 +6,7 @@
 * [Auto Increment](#auto-increment)
 * [Safe Updates](#safe-updates)
 * [Show Create Table](#show-create-table)
+* [Copy Table](#copy-table)
 
 [↩ back to list of cheatsheets](README.md#list-of-cheatsheets)
 
@@ -46,6 +47,16 @@ Displays table creation structure. Replace *TableName* with your value to get st
 
 ```sql
 SHOW CREATE TABLE `TableName`;
+```
+
+[⬆ back to top](#table-of-contents)
+
+## Copy Table
+
+Creates exact copy of source to given destination.
+
+```sql
+CREATE TABLE `SourceDatabaseName`.`SourceTableName` SELECT * FROM `DestinationDatabaseName`.`DestinationTableName`;
 ```
 
 [⬆ back to top](#table-of-contents)
