@@ -40,6 +40,9 @@ speaker-test --channels 2 --rate 48000 --device hw:0,3
 
 # Show live date and time
 watch -n 1 date
+
+# Information about how long system has been running
+uptime
 ```
 
 [⬆ back to top](#table-of-contents)
