@@ -87,6 +87,7 @@ Name | URL
 HTML | https://validator.w3.org/
 CSS | http://www.css-validator.org/
 JavaScript | http://beautifytools.com/javascript-validator.php
+JS Syntax | https://esprima.org/demo/validate.html
 JSON | https://jsonlint.com/
 XML | https://www.xmlvalidation.com/
 
