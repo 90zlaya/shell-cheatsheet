@@ -8,6 +8,7 @@
 * [PHP](php/README.md)
 * [MySQL](mysql/README.md)
 * [Knowledgebase](knowledgebase/README.md)
+* [Snippets](snippets/README.md)
 
 ## Inspiration
 

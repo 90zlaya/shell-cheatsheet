@@ -42,6 +42,8 @@ const isPrime = (number) => {
 console.log(isPrime(1000000000000001)); // Will enter loop for 3 times and return false
 ```
 
+Go to [JavaScript file](../snippets/js/prime-numbers.js) with solution.
+
 **PHP Solution**
 
 ```php
@@ -68,6 +70,8 @@ function isPrime($number) {
 echo isPrime(1000000000000001); // Will enter loop for 3 times and return false
 ```
 
+Go to [PHP file](../snippets/php/prime-numbers.php) with solution.
+
 [⬆ back to top](#table-of-contents)
 
 ## Remove Duplicates
@@ -84,6 +88,8 @@ console.log('Unique numbers', uniqueNumbers); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 We are using `Set` to get unique values which returns `object`, so spread syntax is needed to convert `object` to `array`. Finally, `sort` is used to create ascending order. 
 
+Go to [JavaScript file](../snippets/js/remove-duplicates.js) with solution.
+
 **PHP Solution**
 
 ```php
@@ -94,6 +100,8 @@ print_r($uniqueNumbers); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
 We are using `array_unique` to remove duplicate numbers and in next line `asort` to sort numbers in ascending order. We're not able to print result of `asort` immediately because this function takes array as reference.
+
+Go to [PHP file](../snippets/php/remove-duplicates.php) with solution.
 
 [⬆ back to top](#table-of-contents)
 
@@ -111,6 +119,8 @@ console.log('All numbers', allNumbers); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 We are using spread syntax to create new array `allNumbers` and then add 8 and 9 to it. 
 
+Go to [JavaScript file](../snippets/js/copy-array.js) with solution.
+
 **PHP Solution**
 
 ```php
@@ -118,6 +128,8 @@ $originalNumbers = [1, 2, 3, 4, 5, 6, 7];
 $allNumbers = [...$originalNumbers, 8, 9]; // PHP 7.4 syntax
 print_r($allNumbers); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
+
+Go to [PHP file](../snippets/php/copy-array.php) with solution.
 
 [⬆ back to top](#table-of-contents)
 
@@ -155,5 +167,7 @@ console.log('Dequed', deque()); // Dequed 3
 When enqueuing, we pushed value to the main stack. For deque process, we introduced temporary stack and initialized it as reversed main stack. We popped item from this temp stack and now we want to save that value to the main stack, but we first have to return order of values to it's original state, which means another reverse. 
 
 Function `deque()` at each call returns numbers at the order they were enqueued, which means this task is properly solved because it works under *FIFO* principle.
+
+Go to [JavaScript file](../snippets/js/implementing-queue-using-stack.js) with solution.
 
 [⬆ back to top](#table-of-contents)
