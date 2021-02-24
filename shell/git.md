@@ -75,6 +75,9 @@ git reset --hard
 # Reset changes to the specific commit
 git reset --hard [commit-hash]
 
+# Delete last n commits and force push to remote origin
+git reset --hard HEAD~[n] && git push -f
+
 # Undo specific commit
 git checkout [commit-hash]
 
