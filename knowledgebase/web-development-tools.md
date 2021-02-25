@@ -98,7 +98,7 @@ XML | https://www.xmlvalidation.com/
 Name | URL
 ------------- | -------------
 Base64 Encode | https://www.base64encode.org/
-Base 64 Decode | https://www.base64decode.org/
+Base64 Decode | https://www.base64decode.org/
 URL Encode | https://www.urlencoder.org/
 URL Decode | https://www.urldecoder.org/
 

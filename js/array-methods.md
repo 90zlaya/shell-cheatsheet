@@ -53,7 +53,7 @@ const formulaOneChampions = [
 ];
 ```
 
-Then we're going to use methods to get specific data from this data object.
+Then we're going to use methods to get specific data from this [data object](../snippets/js/array-methods/data-object.js).
 
 [⬆ back to top](#table-of-contents)
 
@@ -66,6 +66,8 @@ const championFromYear = formulaOneChampions.find((champion) => {
 });
 ```
 
+Go to [JavaScript file](../snippets/js/array-methods/find-method.js) with solution.
+
 [⬆ back to top](#table-of-contents)
 
 ## Filter Method
@@ -77,16 +79,20 @@ const championsFromCountry = formulaOneChampions.filter((champion) => {
 });
 ```
 
+Go to [JavaScript file](../snippets/js/array-methods/filter-method.js) with solution.
+
 [⬆ back to top](#table-of-contents)
 
 ## Map Method
 
 ```js
-// Get all winning seasons from oldest to newest
-const allWinningSeasons = formulaOneChampions.map((champion) => {
+// Get all winning champions
+const allWinningChampions = formulaOneChampions.map((champion) => {
     return champion.name;
 });
 ```
+
+Go to [JavaScript file](../snippets/js/array-methods/map-method.js) with solution.
 
 [⬆ back to top](#table-of-contents)
 
@@ -102,5 +108,7 @@ const allWinningSeasons = formulaOneChampions.map((champion) => {
     return previous.concat(current);
 }).sort();
 ```
+
+Go to [JavaScript file](../snippets/js/array-methods/reduce-method.js) with solution.
 
 [⬆ back to top](#table-of-contents)
