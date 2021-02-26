@@ -12,5 +12,7 @@
     * [Copy Array](php/copy-array.php)
     * [Prime Numbers](php/prime-numbers.php)
     * [Remove Duplicates](php/remove-duplicates.php)
+    * [Array Destructuring Single Dimension](php/array-destructuring-single-dimension.php)
+    * [Array Destructuring Multidimensional](php/array-destructuring-multidimensional.php)
 
 [↩ back to main table of contents](../README.md#main-table-of-contents)
