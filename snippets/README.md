@@ -9,6 +9,7 @@
     * [Prime Numbers](js/prime-numbers.js)
     * [Remove Duplicates](js/remove-duplicates.js)
     * [Nullish Coalescing](js/nullish-coalescing.js)
+    * [Optional Chaining](js/optional-chaining.js)
 * **PHP**
     * [Copy Array](php/copy-array.php)
     * [Prime Numbers](php/prime-numbers.php)
