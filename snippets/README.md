@@ -14,6 +14,7 @@
     * [Copy Array](php/copy-array.php)
     * [Prime Numbers](php/prime-numbers.php)
     * [Remove Duplicates](php/remove-duplicates.php)
+    * [Nullish Coalescing](php/nullish-coalescing.php)
     * [Array Destructuring Single Dimension](php/array-destructuring-single-dimension.php)
     * [Array Destructuring Multidimensional](php/array-destructuring-multidimensional.php)
     * [Array Map](php/array-map.php)
