@@ -22,6 +22,7 @@ Name | URL
 ------------- | -------------
 GitHub Profile Views Counter| https://github.com/antonkomarev/github-profile-views-counter
 Public APIs | https://github.com/public-apis/public-apis
+Dev Joke | https://github.com/shrutikapoor08/devjoke
 
 [⬆ back to top](#table-of-contents)
 
@@ -93,6 +94,7 @@ PHP 8.0 Changes | https://github.com/thecodeholic/php8.0-changes
 Name | URL
 ------------- | -------------
 Laravel | https://github.com/laravel/laravel
+Laravel Boilerplate | https://github.com/rappasoft/laravel-boilerplate
 Symphony | https://github.com/symfony/symfony
 CodeIgniter | https://github.com/bcit-ci/CodeIgniter
 
