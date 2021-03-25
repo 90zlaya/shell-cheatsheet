@@ -6,6 +6,7 @@ Read more about [Git](https://git-scm.com/).
 ## Table of Contents
 
 * [Misc](#misc)
+* [Stash](#stash)
 * [Commits](#commits)
 * [Tags](#tags)
 * [Branches](#branches)
@@ -37,6 +38,24 @@ git checkout HEAD -- [filename]
 
 # Restore changes to directory
 git restore -s@ -SW  -- [directory]
+```
+
+[⬆ back to top](#table-of-contents)
+
+## Stash
+
+```bash
+# List all stashed changes
+git stash list
+
+# Save working changes to stash
+git stash save
+
+# Apply prevously stashed working changes
+git stash apply
+
+# Clear all stashed working changes
+git stash clear
 ```
 
 [⬆ back to top](#table-of-contents)
