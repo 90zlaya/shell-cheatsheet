@@ -38,6 +38,9 @@ git checkout HEAD -- [filename]
 
 # Restore changes to directory
 git restore -s@ -SW  -- [directory]
+
+# Count unpacked number of objects and their disk consumption
+git count-objects -v
 ```
 
 [⬆ back to top](#table-of-contents)
