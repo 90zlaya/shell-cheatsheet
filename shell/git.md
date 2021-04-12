@@ -105,6 +105,9 @@ git checkout [commit-hash]
 
 # Rename last commit message
 git commit --amend -m "[message-content]" && git push --force [branch-name]
+
+# Set commit date few days in past
+git commit -m "[message-content]" --date="[number-of-days] day ago"
 ```
 
 [⬆ back to top](#table-of-contents)
