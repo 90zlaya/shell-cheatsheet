@@ -23,6 +23,7 @@ Name | URL
 GitHub Profile Views Counter| https://github.com/antonkomarev/github-profile-views-counter
 Public APIs | https://github.com/public-apis/public-apis
 Dev Joke | https://github.com/shrutikapoor08/devjoke
+*-as-a-Service | https://github.com/as-a-service
 
 [⬆ back to top](#table-of-contents)
 
