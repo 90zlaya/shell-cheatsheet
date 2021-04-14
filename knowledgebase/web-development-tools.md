@@ -4,6 +4,7 @@
 ## Table of Contents
 
 * [Uncategorized](#uncategorized)
+* [Apps](#apps)
 * [Courses](#courses)
 * [Images and Files](#images-and-files)
 * [Converters](#converters)
@@ -27,6 +28,14 @@ OpenBase: Packages comparer| https://openbase.io/
 Pasword Generator | https://passwordsgenerator.net/
 Flowchart Fun | https://flowchart.fun/
 Installlion | https://installlion.com/
+
+[⬆ back to top](#table-of-contents)
+
+## Apps
+
+Name | URL
+------------- | -------------
+ ClipIt - Lightweight GTK+ Clipboard Manager | http://manpages.ubuntu.com/manpages/bionic/man1/clipit.1.html
 
 [⬆ back to top](#table-of-contents)
 
