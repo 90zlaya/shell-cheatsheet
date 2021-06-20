@@ -151,8 +151,11 @@ git branch [branch-name]
 # Clone branch
 git clone --branch [branch-name]
 
-# Delete branch
+# Delete branch (locally)
 git branch -d [branch-name]
+
+# Delete branch (remotely)
+git push origin -d [branch-name]
 
 # Set specific branch to be master for pushed commits
 git push --set-upstream origin [branch-name]
