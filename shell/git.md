@@ -151,6 +151,9 @@ git branch [branch-name]
 # Clone branch
 git clone --branch [branch-name]
 
+# Rename branch (locally)
+git branch -m [old-name] [new-name]
+
 # Delete branch (locally)
 git branch -d [branch-name]
 
