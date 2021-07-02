@@ -18,7 +18,7 @@ Read more about [Git](https://git-scm.com/).
 ## Misc
 
 ```bash
-# Get verion of Git
+# Get version of Git
 git version
 
 # Initialize repository
@@ -54,7 +54,7 @@ git stash list
 # Save working changes to stash
 git stash save
 
-# Apply prevously stashed working changes
+# Apply previously stashed working changes
 git stash apply
 
 # Clear all stashed working changes

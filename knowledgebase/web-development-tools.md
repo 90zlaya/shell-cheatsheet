@@ -25,7 +25,7 @@ CDN | https://cdnjs.com/
 Email Breaches | https://haveibeenpwned.com/
 Free Proxy List | https://free-proxy-list.net/
 OpenBase: Packages comparer| https://openbase.io/
-Pasword Generator | https://passwordsgenerator.net/
+Password Generator | https://passwordsgenerator.net/
 Flowchart Fun | https://flowchart.fun/
 Installlion | https://installlion.com/
 
