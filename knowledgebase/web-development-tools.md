@@ -28,6 +28,7 @@ OpenBase: Packages comparer| https://openbase.io/
 Password Generator | https://passwordsgenerator.net/
 Flowchart Fun | https://flowchart.fun/
 Installlion | https://installlion.com/
+Online Text Edit Tools | https://textedit.tools/
 
 [⬆ back to top](#table-of-contents)
 
