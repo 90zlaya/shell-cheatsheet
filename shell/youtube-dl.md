@@ -21,6 +21,9 @@ youtube-dl --version
 
 # Download playlist in mp3 format
 youtube-dl -x --audio-format mp3 [playlist-url]
+
+# Download single video in mp3 format
+youtube-dl --extract-audio --audio-format mp3 [single-video-url]
 ```
 
 [⬆ back to top](#table-of-contents)
