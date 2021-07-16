@@ -10,6 +10,7 @@
     * [Remove Duplicates](js/remove-duplicates.js)
     * [Nullish Coalescing](js/nullish-coalescing.js)
     * [Optional Chaining](js/optional-chaining.js)
+    * [Sort By Date](js/sort-by-date.js)
 * **PHP**
     * [Copy Array](php/copy-array.php)
     * [Prime Numbers](php/prime-numbers.php)
